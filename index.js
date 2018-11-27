@@ -17,10 +17,12 @@ app.post("/ai",function(req,res){
                             }));
 });
     
-var listener = app.listen(process.env.PORT,
-                        process.env.IP,
-                        function(){
-                            console.log("server started");
-                            console.log("listening on port ");// +
-                            //listener.address().port);
-                        });
+var listener = 
+    app.listen(
+        process.env.PORT,
+        process.env.IP,
+        function(){
+            console.log("server started");
+            console.log("listening on port ");// +
+            //listener.address().port);
+        });
