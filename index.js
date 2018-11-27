@@ -23,6 +23,6 @@ var listener =
         process.env.IP,
         function(){
             console.log("server started");
-            console.log("listening on port ");// +
-            //listener.address().port);
+            console.log("listening on port " +
+            listener.address().port);
         });
