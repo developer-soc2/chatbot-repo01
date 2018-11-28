@@ -5,7 +5,8 @@ const {WebhookClient,Card, Suggestion} = require('dialogflow-fulfillment');
 const {dialogflow} = require('actions-on-google');
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
 const app = dialogflow(); 
-exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, response) => {
+const expressApp = express().use(bodyParser.json());
+expressApp.post('/fulfillment', functions.https.onRequest((request, response) => {
   const agent = new WebhookClient({ request, response });
   console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
   console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
@@ -60,10 +61,10 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   // intentMap.set('your intent name here', yourFunctionHandler);
   // intentMap.set('your intent name here', googleAssistantHandler);
   agent.handleRequest(intentMap);
-});
-const expressApp = express().use(bodyParser.json());
+})
+);
 
-expressApp.post('/fulfillment', app);
+
 var listener = 
 expressApp.listen(
         process.env.PORT,
