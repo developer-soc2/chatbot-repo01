@@ -27,8 +27,8 @@ expressApp.post('/fulfillment', functions.https.onRequest((request, response) =>
             url: googleUrl,
             description: 'Description of item 1',
             image: new Image({
-              url: 'http://weknowyourdreams.com/images/robot/robot-02.jpg',
-              alt: a11yText,
+                imageUrl : 'http://weknowyourdreams.com/images/robot/robot-02.jpg',
+                alt: a11yText,
             }),
             footer: 'Item 1 footer',
           }),
@@ -37,7 +37,7 @@ expressApp.post('/fulfillment', functions.https.onRequest((request, response) =>
             url: googleUrl,
             description: 'Description of item 2',
             image: new Image({
-              url: 'http://weknowyourdreams.com/images/robot/robot-02.jpg',
+                imageUrl : 'http://weknowyourdreams.com/images/robot/robot-02.jpg',
               alt: a11yText,
             }),
             footer: 'Item 2 footer',
