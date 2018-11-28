@@ -2,9 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const functions = require('firebase-functions');
 const {WebhookClient,Card, Suggestion} = require('dialogflow-fulfillment');
-const {
-    dialogflow
-   } = require('actions-on-google');
+const {dialogflow} = require('actions-on-google');
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
 const app = dialogflow(); 
 exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, response) => {
