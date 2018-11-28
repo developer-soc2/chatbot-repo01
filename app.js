@@ -19,6 +19,14 @@ expressApp.post('/fulfillment', functions.https.onRequest((request, response) =>
         buttonUrl: 'https://assistant.google.com/'
       })
     );
+    agent.add(new Card({
+        title: `This is a second card`,
+        imageUrl: 'http://weknowyourdreams.com/images/robot/robot-02.jpg',
+        text: `You can do anything! 💁`,
+        buttonText: 'Click Me to know more about me!',
+        buttonUrl: 'https://assistant.google.com/'
+      })
+    );
   }
  
   function fallback(agent) {
