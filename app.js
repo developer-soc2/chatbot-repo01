@@ -19,7 +19,7 @@ expressApp.post('/fulfillment', functions.https.onRequest((request, response) =>
         buttonUrl: 'https://assistant.google.com/'
       })
     );
-    ask(new BrowseCarousel({
+    agent.ask(new BrowseCarousel({
         items: [
           new BrowseCarouselItem({
             title: 'Title of item 1',
