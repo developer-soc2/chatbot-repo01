@@ -11,6 +11,14 @@ expressApp.post('/fulfillment', functions.https.onRequest((request, response) =>
  
   function welcome(agent) {
     agent.add(`Welcome to my agent in Heroku!`);
+    agent.add(new Card({
+        title: `This is Agent in Heroku`,
+        imageUrl: 'https://developers.google.com/actions/images/badges/XPM_BADGING_GoogleAssistant_VER.png',
+        text: `I am here to serve you.\n  Please free to ask me anything! 💁`,
+        buttonText: 'Click Me to know more about me',
+        buttonUrl: 'https://assistant.google.com/'
+      })
+    );
   }
  
   function fallback(agent) {
