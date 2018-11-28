@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const functions = require('firebase-functions');
-const {WebhookClient,Card, Suggestion} = require('dialogflow-fulfillment');
+const {WebhookClient,Card, Suggestion,BrowseCarousel } = require('dialogflow-fulfillment');
 
 const expressApp = express().use(bodyParser.json());
 expressApp.post('/fulfillment', functions.https.onRequest((request, response) => {
