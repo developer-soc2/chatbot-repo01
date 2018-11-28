@@ -2,7 +2,8 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const functions = require('firebase-functions');
 const {WebhookClient,Card, Suggestion,BrowseCarousel,BrowseCarouselItem } = require('dialogflow-fulfillment');
-
+const a11yText = 'Google Assistant Bubbles';
+const googleUrl = 'https://google.com';
 const expressApp = express().use(bodyParser.json());
 expressApp.post('/fulfillment', functions.https.onRequest((request, response) => {
   const agent = new WebhookClient({ request, response });
