@@ -19,14 +19,30 @@ expressApp.post('/fulfillment', functions.https.onRequest((request, response) =>
         buttonUrl: 'https://assistant.google.com/'
       })
     );
-    agent.add(new Card({
-        title: `This is a second card`,
-        imageUrl: 'http://weknowyourdreams.com/images/robot/robot-02.jpg',
-        text: `You can do anything! 💁`,
-        buttonText: 'Click Me to know more about me!',
-        buttonUrl: 'https://assistant.google.com/'
-      })
-    );
+    ask(new BrowseCarousel({
+        items: [
+          new BrowseCarouselItem({
+            title: 'Title of item 1',
+            url: googleUrl,
+            description: 'Description of item 1',
+            image: new Image({
+              url: 'http://weknowyourdreams.com/images/robot/robot-02.jpg',
+              alt: a11yText,
+            }),
+            footer: 'Item 1 footer',
+          }),
+          new BrowseCarouselItem({
+            title: 'Title of item 2',
+            url: googleUrl,
+            description: 'Description of item 2',
+            image: new Image({
+              url: 'http://weknowyourdreams.com/images/robot/robot-02.jpg',
+              alt: a11yText,
+            }),
+            footer: 'Item 2 footer',
+          }),
+        ],
+      }));
   }
  
   function fallback(agent) {
