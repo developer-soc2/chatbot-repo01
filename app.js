@@ -15,7 +15,7 @@ expressApp.post('/fulfillment', functions.https.onRequest((request, response) =>
         title: `This is Agent in Heroku`,
         imageUrl: 'http://weknowyourdreams.com/images/robot/robot-02.jpg',
         text: `I am here to serve you.\n  Please free to ask me anything! 💁`,
-        buttonText: 'Click Me to know more about meLi',
+        buttonText: 'Click Me to know more about me!',
         buttonUrl: 'https://assistant.google.com/'
       })
     );
