@@ -1,0 +1,1753 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'fire-admin',
+1 verbose cli   '-S' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData fire-admin
+8 silly fetchNamedPackageData fire-admin
+9 silly mapToRegistry name fire-admin
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'fire-admin',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'fire-admin',
+12 silly mapToRegistry   name: 'fire-admin',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/fire-admin
+14 verbose request uri https://registry.npmjs.org/fire-admin
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:45:00 AM
+17 verbose request id 12e269b7bb4587d8
+18 verbose etag W/"2ff863d1a941eef403b92af04041b578"
+19 verbose lastModified Sun, 27 May 2018 00:42:27 GMT
+20 http request GET https://registry.npmjs.org/fire-admin
+21 http 304 https://registry.npmjs.org/fire-admin
+22 verbose headers { date: 'Wed, 28 Nov 2018 03:45:07 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'set-cookie': [ '__cfduid=dccd0934f55c851cac9d7888e211fd7bf1543376707; expires=Thu, 28-Nov-19 03:45:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'cf-ray': '4809d7074db4c383-SIN',
+22 verbose headers   etag: '"2ff863d1a941eef403b92af04041b578"',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   'last-modified': 'Sun, 27 May 2018 00:42:27 GMT',
+22 verbose headers   vary: 'accept-encoding, accept',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Wed, 28 Nov 2018 03:45:07 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'set-cookie': [ '__cfduid=dccd0934f55c851cac9d7888e211fd7bf1543376707; expires=Thu, 28-Nov-19 03:45:07 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'cf-ray': '4809d7074db4c383-SIN',
+23 silly get     etag: '"2ff863d1a941eef403b92af04041b578"',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     'last-modified': 'Sun, 27 May 2018 00:42:27 GMT',
+23 silly get     vary: 'accept-encoding, accept',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/fire-admin from cache
+25 verbose get saving fire-admin to D:\nodedata\npm-cache\registry.npmjs.org\fire-admin\.cache.json
+26 verbose correctMkdir D:\nodedata\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule fire-admin@0.0.0 checking installable status
+40 silly cache add args [ 'fire-admin', null ]
+41 verbose cache add spec fire-admin
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'fire-admin',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'fire-admin',
+42 silly cache add   name: 'fire-admin',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed fire-admin@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for fire-admin
+45 info addNameTag [ 'fire-admin', 'latest' ]
+46 silly mapToRegistry name fire-admin
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'fire-admin',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'fire-admin',
+49 silly mapToRegistry   name: 'fire-admin',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/fire-admin
+51 verbose addNameTag registry:https://registry.npmjs.org/fire-admin not in flight; fetching
+52 verbose get https://registry.npmjs.org/fire-admin not expired, no request
+53 silly addNameTag next cb for fire-admin with tag latest
+54 silly addNamed fire-admin@0.0.0
+55 verbose addNamed "0.0.0" is a plain semver version for fire-admin
+56 silly cache afterAdd fire-admin@0.0.0
+57 verbose afterAdd D:\nodedata\npm-cache\fire-admin\0.0.0\package\package.json not in flight; writing
+58 verbose correctMkdir D:\nodedata\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd D:\nodedata\npm-cache\fire-admin\0.0.0\package\package.json written
+60 silly loadAllDepsIntoIdealTree Finishing
+61 silly loadIdealTree Finishing
+62 silly currentTree chatbot-repo01@1.0.0
+62 silly currentTree +-- @lerna/add@3.5.0
+62 silly currentTree +-- @lerna/batch-packages@3.1.2
+62 silly currentTree +-- @lerna/bootstrap@3.5.0
+62 silly currentTree +-- @lerna/changed@3.5.0
+62 silly currentTree +-- @lerna/check-working-tree@3.5.0
+62 silly currentTree +-- @lerna/child-process@3.3.0
+62 silly currentTree | +-- execa@1.0.0
+62 silly currentTree | `-- get-stream@4.1.0
+62 silly currentTree +-- @lerna/clean@3.5.0
+62 silly currentTree +-- @lerna/cli@3.2.0
+62 silly currentTree +-- @lerna/collect-updates@3.5.0
+62 silly currentTree +-- @lerna/command@3.5.0
+62 silly currentTree | +-- execa@1.0.0
+62 silly currentTree | `-- get-stream@4.1.0
+62 silly currentTree +-- @lerna/conventional-commits@3.5.0
+62 silly currentTree | `-- get-stream@4.1.0
+62 silly currentTree +-- @lerna/create-symlink@3.3.0
+62 silly currentTree +-- @lerna/create@3.5.0
+62 silly currentTree | `-- camelcase@4.1.0
+62 silly currentTree +-- @lerna/describe-ref@3.5.0
+62 silly currentTree +-- @lerna/diff@3.5.0
+62 silly currentTree +-- @lerna/exec@3.5.0
+62 silly currentTree +-- @lerna/filter-options@3.5.0
+62 silly currentTree +-- @lerna/filter-packages@3.0.0
+62 silly currentTree +-- @lerna/get-npm-exec-opts@3.0.0
+62 silly currentTree +-- @lerna/global-options@3.1.3
+62 silly currentTree +-- @lerna/has-npm-version@3.3.0
+62 silly currentTree +-- @lerna/import@3.5.0
+62 silly currentTree +-- @lerna/init@3.5.0
+62 silly currentTree +-- @lerna/link@3.5.0
+62 silly currentTree +-- @lerna/list@3.5.0
+62 silly currentTree +-- @lerna/listable@3.0.0
+62 silly currentTree +-- @lerna/log-packed@3.0.4
+62 silly currentTree +-- @lerna/npm-conf@3.4.1
+62 silly currentTree +-- @lerna/npm-dist-tag@3.3.0
+62 silly currentTree +-- @lerna/npm-install@3.3.0
+62 silly currentTree +-- @lerna/npm-publish@3.3.1
+62 silly currentTree +-- @lerna/npm-run-script@3.3.0
+62 silly currentTree +-- @lerna/output@3.0.0
+62 silly currentTree +-- @lerna/package-graph@3.1.2
+62 silly currentTree +-- @lerna/package@3.0.0
+62 silly currentTree +-- @lerna/project@3.5.0
+62 silly currentTree +-- @lerna/prompt@3.3.1
+62 silly currentTree +-- @lerna/publish@3.5.0
+62 silly currentTree +-- @lerna/resolve-symlink@3.3.0
+62 silly currentTree +-- @lerna/rimraf-dir@3.3.0
+62 silly currentTree +-- @lerna/run-lifecycle@3.4.1
+62 silly currentTree +-- @lerna/run-parallel-batches@3.0.0
+62 silly currentTree +-- @lerna/run@3.5.0
+62 silly currentTree +-- @lerna/symlink-binary@3.3.0
+62 silly currentTree | `-- read-pkg@3.0.0
+62 silly currentTree +-- @lerna/symlink-dependencies@3.3.0
+62 silly currentTree +-- @lerna/timer@3.5.0
+62 silly currentTree +-- @lerna/validation-error@3.0.0
+62 silly currentTree +-- @lerna/version@3.5.0
+62 silly currentTree +-- @lerna/write-log-file@3.0.0
+62 silly currentTree +-- @mrmlnc/readdir-enhanced@2.2.1
+62 silly currentTree +-- @nodelib/fs.stat@1.1.3
+62 silly currentTree +-- @types/aws-lambda@0.0.33
+62 silly currentTree +-- @types/body-parser@1.17.0
+62 silly currentTree +-- @types/connect@3.4.32
+62 silly currentTree +-- @types/debug@0.0.30
+62 silly currentTree +-- @types/events@1.2.0
+62 silly currentTree +-- @types/express-serve-static-core@4.16.0
+62 silly currentTree +-- @types/express@4.16.0
+62 silly currentTree +-- @types/mime@2.0.0
+62 silly currentTree +-- @types/node@9.6.39
+62 silly currentTree +-- @types/range-parser@1.2.2
+62 silly currentTree +-- @types/serve-static@1.13.2
+62 silly currentTree +-- abbrev@1.1.1
+62 silly currentTree +-- accepts@1.3.5
+62 silly currentTree +-- actions-on-google@2.5.0
+62 silly currentTree | +-- debug@3.2.6
+62 silly currentTree | +-- gcp-metadata@0.6.3
+62 silly currentTree | +-- google-auth-library@1.6.1
+62 silly currentTree | `-- ms@2.1.1
+62 silly currentTree +-- agent-base@4.2.1
+62 silly currentTree +-- agentkeepalive@3.5.2
+62 silly currentTree +-- ajv@6.5.5
+62 silly currentTree +-- ansi-escapes@3.1.0
+62 silly currentTree +-- ansi-regex@3.0.0
+62 silly currentTree +-- ansi-styles@3.2.1
+62 silly currentTree +-- aproba@1.2.0
+62 silly currentTree +-- are-we-there-yet@1.1.5
+62 silly currentTree +-- argparse@1.0.10
+62 silly currentTree +-- arr-diff@4.0.0
+62 silly currentTree +-- arr-flatten@1.1.0
+62 silly currentTree +-- arr-union@3.1.0
+62 silly currentTree +-- array-differ@1.0.0
+62 silly currentTree +-- array-find-index@1.0.2
+62 silly currentTree +-- array-flatten@1.1.1
+62 silly currentTree +-- array-ify@1.0.0
+62 silly currentTree +-- array-union@1.0.2
+62 silly currentTree +-- array-uniq@1.0.3
+62 silly currentTree +-- array-unique@0.3.2
+62 silly currentTree +-- arrify@1.0.1
+62 silly currentTree +-- asap@2.0.6
+62 silly currentTree +-- asn1@0.2.4
+62 silly currentTree +-- assert-plus@1.0.0
+62 silly currentTree +-- assign-symbols@1.0.0
+62 silly currentTree +-- async@2.6.1
+62 silly currentTree +-- asynckit@0.4.0
+62 silly currentTree +-- atob@2.1.2
+62 silly currentTree +-- aws-sign2@0.7.0
+62 silly currentTree +-- aws4@1.8.0
+62 silly currentTree +-- axios@0.18.0
+62 silly currentTree +-- balanced-match@1.0.0
+62 silly currentTree +-- base@0.11.2
+62 silly currentTree | +-- define-property@1.0.0
+62 silly currentTree | +-- is-accessor-descriptor@1.0.0
+62 silly currentTree | +-- is-data-descriptor@1.0.0
+62 silly currentTree | `-- is-descriptor@1.0.2
+62 silly currentTree +-- bcrypt-pbkdf@1.0.2
+62 silly currentTree +-- block-stream@0.0.9
+62 silly currentTree +-- bluebird@3.5.3
+62 silly currentTree +-- body-parser@1.18.3
+62 silly currentTree +-- brace-expansion@1.1.11
+62 silly currentTree +-- braces@2.3.2
+62 silly currentTree | `-- extend-shallow@2.0.1
+62 silly currentTree +-- buffer-equal-constant-time@1.0.1
+62 silly currentTree +-- buffer-from@1.1.1
+62 silly currentTree +-- builtin-modules@1.1.1
+62 silly currentTree +-- builtins@1.0.3
+62 silly currentTree +-- byline@5.0.0
+62 silly currentTree +-- byte-size@4.0.4
+62 silly currentTree +-- bytes@3.0.0
+62 silly currentTree +-- cacache@11.3.1
+62 silly currentTree +-- cache-base@1.0.1
+62 silly currentTree +-- call-me-maybe@1.0.1
+62 silly currentTree +-- caller-callsite@2.0.0
+62 silly currentTree +-- caller-path@2.0.0
+62 silly currentTree +-- callsites@2.0.0
+62 silly currentTree +-- camelcase-keys@4.2.0
+62 silly currentTree | `-- camelcase@4.1.0
+62 silly currentTree +-- camelcase@5.0.0
+62 silly currentTree +-- caseless@0.12.0
+62 silly currentTree +-- chalk@2.4.1
+62 silly currentTree | `-- supports-color@5.5.0
+62 silly currentTree +-- chardet@0.7.0
+62 silly currentTree +-- chownr@1.1.1
+62 silly currentTree +-- ci-info@1.6.0
+62 silly currentTree +-- class-utils@0.3.6
+62 silly currentTree | `-- define-property@0.2.5
+62 silly currentTree +-- cli-cursor@2.1.0
+62 silly currentTree +-- cli-width@2.2.0
+62 silly currentTree +-- cliui@4.1.0
+62 silly currentTree +-- clone@1.0.4
+62 silly currentTree +-- cmd-shim@2.0.2
+62 silly currentTree +-- code-point-at@1.1.0
+62 silly currentTree +-- collection-visit@1.0.0
+62 silly currentTree +-- color-convert@1.9.3
+62 silly currentTree +-- color-name@1.1.3
+62 silly currentTree +-- columnify@1.5.4
+62 silly currentTree | +-- ansi-regex@2.1.1
+62 silly currentTree | `-- strip-ansi@3.0.1
+62 silly currentTree +-- combined-stream@1.0.7
+62 silly currentTree +-- commander@2.17.1
+62 silly currentTree +-- compare-func@1.3.2
+62 silly currentTree | `-- dot-prop@3.0.0
+62 silly currentTree +-- component-emitter@1.2.1
+62 silly currentTree +-- concat-map@0.0.1
+62 silly currentTree +-- concat-stream@1.6.2
+62 silly currentTree +-- concurrently@4.1.0
+62 silly currentTree +-- config-chain@1.1.12
+62 silly currentTree +-- console-control-strings@1.1.0
+62 silly currentTree +-- content-disposition@0.5.2
+62 silly currentTree +-- content-type@1.0.4
+62 silly currentTree +-- conventional-changelog-angular@5.0.2
+62 silly currentTree +-- conventional-changelog-core@3.1.5
+62 silly currentTree | `-- read-pkg@3.0.0
+62 silly currentTree +-- conventional-changelog-preset-loader@2.0.2
+62 silly currentTree +-- conventional-changelog-writer@4.0.2
+62 silly currentTree +-- conventional-commits-filter@2.0.1
+62 silly currentTree +-- conventional-commits-parser@3.0.1
+62 silly currentTree +-- conventional-recommended-bump@4.0.4
+62 silly currentTree +-- cookie-signature@1.0.6
+62 silly currentTree +-- cookie@0.3.1
+62 silly currentTree +-- copy-concurrently@1.0.5
+62 silly currentTree +-- copy-descriptor@0.1.1
+62 silly currentTree +-- core-util-is@1.0.2
+62 silly currentTree +-- cosmiconfig@5.0.7
+62 silly currentTree +-- cross-spawn@6.0.5
+62 silly currentTree +-- currently-unhandled@0.4.1
+62 silly currentTree +-- cyclist@0.2.2
+62 silly currentTree +-- dargs@4.1.0
+62 silly currentTree +-- dashdash@1.14.1
+62 silly currentTree +-- date-fns@1.29.0
+62 silly currentTree +-- dateformat@3.0.3
+62 silly currentTree +-- debug@2.6.9
+62 silly currentTree +-- debuglog@1.0.1
+62 silly currentTree +-- decamelize-keys@1.1.0
+62 silly currentTree | `-- map-obj@1.0.1
+62 silly currentTree +-- decamelize@1.2.0
+62 silly currentTree +-- decode-uri-component@0.2.0
+62 silly currentTree +-- dedent@0.7.0
+62 silly currentTree +-- defaults@1.0.3
+62 silly currentTree +-- define-property@2.0.2
+62 silly currentTree | +-- is-accessor-descriptor@1.0.0
+62 silly currentTree | +-- is-data-descriptor@1.0.0
+62 silly currentTree | `-- is-descriptor@1.0.2
+62 silly currentTree +-- delayed-stream@1.0.0
+62 silly currentTree +-- delegates@1.0.0
+62 silly currentTree +-- depd@1.1.2
+62 silly currentTree +-- destroy@1.0.4
+62 silly currentTree +-- detect-indent@5.0.0
+62 silly currentTree +-- dezalgo@1.0.3
+62 silly currentTree +-- dialogflow-fulfillment@0.6.1
+62 silly currentTree | +-- debug@3.2.6
+62 silly currentTree | `-- ms@2.1.1
+62 silly currentTree +-- dir-glob@2.0.0
+62 silly currentTree +-- dot-prop@4.2.0
+62 silly currentTree +-- duplexer@0.1.1
+62 silly currentTree +-- duplexify@3.6.1
+62 silly currentTree +-- ecc-jsbn@0.1.2
+62 silly currentTree +-- ecdsa-sig-formatter@1.0.10
+62 silly currentTree +-- ee-first@1.1.1
+62 silly currentTree +-- ejs@2.6.1
+62 silly currentTree +-- encodeurl@1.0.2
+62 silly currentTree +-- encoding@0.1.12
+62 silly currentTree +-- end-of-stream@1.4.1
+62 silly currentTree +-- err-code@1.1.2
+62 silly currentTree +-- error-ex@1.3.2
+62 silly currentTree +-- es6-promise@4.2.5
+62 silly currentTree +-- es6-promisify@5.0.0
+62 silly currentTree +-- escape-html@1.0.3
+62 silly currentTree +-- escape-string-regexp@1.0.5
+62 silly currentTree +-- esprima@4.0.1
+62 silly currentTree +-- etag@1.8.1
+62 silly currentTree +-- execa@0.10.0
+62 silly currentTree +-- expand-brackets@2.1.4
+62 silly currentTree | +-- define-property@0.2.5
+62 silly currentTree | `-- extend-shallow@2.0.1
+62 silly currentTree +-- express@4.16.4
+62 silly currentTree +-- extend-shallow@3.0.2
+62 silly currentTree | `-- is-extendable@1.0.1
+62 silly currentTree +-- extend@3.0.2
+62 silly currentTree +-- external-editor@3.0.3
+62 silly currentTree | `-- iconv-lite@0.4.24
+62 silly currentTree +-- extglob@2.0.4
+62 silly currentTree | +-- define-property@1.0.0
+62 silly currentTree | +-- extend-shallow@2.0.1
+62 silly currentTree | +-- is-accessor-descriptor@1.0.0
+62 silly currentTree | +-- is-data-descriptor@1.0.0
+62 silly currentTree | `-- is-descriptor@1.0.2
+62 silly currentTree +-- extsprintf@1.3.0
+62 silly currentTree +-- fast-deep-equal@2.0.1
+62 silly currentTree +-- fast-glob@2.2.4
+62 silly currentTree | `-- is-glob@4.0.0
+62 silly currentTree +-- fast-json-stable-stringify@2.0.0
+62 silly currentTree +-- figgy-pudding@3.5.1
+62 silly currentTree +-- figures@2.0.0
+62 silly currentTree +-- fill-range@4.0.0
+62 silly currentTree | `-- extend-shallow@2.0.1
+62 silly currentTree +-- finalhandler@1.1.1
+62 silly currentTree +-- find-up@3.0.0
+62 silly currentTree +-- flush-write-stream@1.0.3
+62 silly currentTree +-- follow-redirects@1.5.10
+62 silly currentTree | `-- debug@3.1.0
+62 silly currentTree +-- for-in@1.0.2
+62 silly currentTree +-- forever-agent@0.6.1
+62 silly currentTree +-- form-data@2.3.3
+62 silly currentTree +-- forwarded@0.1.2
+62 silly currentTree +-- fragment-cache@0.2.1
+62 silly currentTree +-- fresh@0.5.2
+62 silly currentTree +-- from2@2.3.0
+62 silly currentTree +-- fs-extra@7.0.1
+62 silly currentTree +-- fs-minipass@1.2.5
+62 silly currentTree +-- fs-write-stream-atomic@1.0.10
+62 silly currentTree +-- fs.realpath@1.0.0
+62 silly currentTree +-- fstream@1.0.11
+62 silly currentTree +-- g@2.0.1
+62 silly currentTree +-- gauge@2.7.4
+62 silly currentTree | +-- ansi-regex@2.1.1
+62 silly currentTree | +-- is-fullwidth-code-point@1.0.0
+62 silly currentTree | +-- string-width@1.0.2
+62 silly currentTree | `-- strip-ansi@3.0.1
+62 silly currentTree +-- genfun@5.0.0
+62 silly currentTree +-- get-caller-file@1.0.3
+62 silly currentTree +-- get-pkg-repo@1.4.0
+62 silly currentTree | +-- camelcase-keys@2.1.0
+62 silly currentTree | +-- camelcase@2.1.1
+62 silly currentTree | +-- find-up@1.1.2
+62 silly currentTree | +-- indent-string@2.1.0
+62 silly currentTree | +-- load-json-file@1.1.0
+62 silly currentTree | +-- map-obj@1.0.1
+62 silly currentTree | +-- meow@3.7.0
+62 silly currentTree | +-- parse-json@2.2.0
+62 silly currentTree | +-- path-exists@2.1.0
+62 silly currentTree | +-- path-type@1.1.0
+62 silly currentTree | +-- pify@2.3.0
+62 silly currentTree | +-- read-pkg-up@1.0.1
+62 silly currentTree | +-- read-pkg@1.1.0
+62 silly currentTree | +-- redent@1.0.0
+62 silly currentTree | +-- strip-bom@2.0.0
+62 silly currentTree | +-- strip-indent@1.0.1
+62 silly currentTree | `-- trim-newlines@1.0.0
+62 silly currentTree +-- get-port@3.2.0
+62 silly currentTree +-- get-stdin@4.0.1
+62 silly currentTree +-- get-stream@3.0.0
+62 silly currentTree +-- get-value@2.0.6
+62 silly currentTree +-- getpass@0.1.7
+62 silly currentTree +-- git-raw-commits@2.0.0
+62 silly currentTree +-- git-remote-origin-url@2.0.0
+62 silly currentTree | `-- pify@2.3.0
+62 silly currentTree +-- git-semver-tags@2.0.2
+62 silly currentTree +-- gitconfiglocal@1.0.0
+62 silly currentTree +-- glob-parent@3.1.0
+62 silly currentTree +-- glob-to-regexp@0.3.0
+62 silly currentTree +-- glob@7.1.3
+62 silly currentTree +-- globby@8.0.1
+62 silly currentTree +-- google-p12-pem@1.0.2
+62 silly currentTree +-- googleapis@27.0.0
+62 silly currentTree | +-- gcp-metadata@0.6.3
+62 silly currentTree | `-- google-auth-library@1.6.1
+62 silly currentTree +-- graceful-fs@4.1.15
+62 silly currentTree +-- gtoken@2.3.0
+62 silly currentTree | `-- mime@2.4.0
+62 silly currentTree +-- handlebars@4.0.12
+62 silly currentTree | `-- source-map@0.6.1
+62 silly currentTree +-- har-schema@2.0.0
+62 silly currentTree +-- har-validator@5.1.3
+62 silly currentTree +-- has-flag@3.0.0
+62 silly currentTree +-- has-unicode@2.0.1
+62 silly currentTree +-- has-value@1.0.0
+62 silly currentTree +-- has-values@1.0.0
+62 silly currentTree | `-- kind-of@4.0.0
+62 silly currentTree +-- hosted-git-info@2.7.1
+62 silly currentTree +-- http-cache-semantics@3.8.1
+62 silly currentTree +-- http-errors@1.6.3
+62 silly currentTree +-- http-proxy-agent@2.1.0
+62 silly currentTree | `-- debug@3.1.0
+62 silly currentTree +-- http-signature@1.2.0
+62 silly currentTree +-- https-proxy-agent@2.2.1
+62 silly currentTree | +-- debug@3.2.6
+62 silly currentTree | `-- ms@2.1.1
+62 silly currentTree +-- humanize-ms@1.2.1
+62 silly currentTree +-- iconv-lite@0.4.23
+62 silly currentTree +-- iferr@0.1.5
+62 silly currentTree +-- ignore-walk@3.0.1
+62 silly currentTree +-- ignore@3.3.10
+62 silly currentTree +-- import-fresh@2.0.0
+62 silly currentTree | `-- resolve-from@3.0.0
+62 silly currentTree +-- import-local@1.0.0
+62 silly currentTree +-- imurmurhash@0.1.4
+62 silly currentTree +-- indent-string@3.2.0
+62 silly currentTree +-- inflight@1.0.6
+62 silly currentTree +-- inherits@2.0.3
+62 silly currentTree +-- ini@1.3.5
+62 silly currentTree +-- init-package-json@1.10.3
+62 silly currentTree +-- inquirer@6.2.0
+62 silly currentTree +-- invert-kv@2.0.0
+62 silly currentTree +-- ip@1.1.5
+62 silly currentTree +-- ipaddr.js@1.8.0
+62 silly currentTree +-- is-accessor-descriptor@0.1.6
+62 silly currentTree | `-- kind-of@3.2.2
+62 silly currentTree +-- is-arrayish@0.2.1
+62 silly currentTree +-- is-buffer@1.1.6
+62 silly currentTree +-- is-builtin-module@1.0.0
+62 silly currentTree +-- is-ci@1.2.1
+62 silly currentTree +-- is-data-descriptor@0.1.4
+62 silly currentTree | `-- kind-of@3.2.2
+62 silly currentTree +-- is-descriptor@0.1.6
+62 silly currentTree | `-- kind-of@5.1.0
+62 silly currentTree +-- is-directory@0.3.1
+62 silly currentTree +-- is-extendable@0.1.1
+62 silly currentTree +-- is-extglob@2.1.1
+62 silly currentTree +-- is-finite@1.0.2
+62 silly currentTree +-- is-fullwidth-code-point@2.0.0
+62 silly currentTree +-- is-glob@3.1.0
+62 silly currentTree +-- is-number@3.0.0
+62 silly currentTree | `-- kind-of@3.2.2
+62 silly currentTree +-- is-obj@1.0.1
+62 silly currentTree +-- is-plain-obj@1.1.0
+62 silly currentTree +-- is-plain-object@2.0.4
+62 silly currentTree +-- is-promise@2.1.0
+62 silly currentTree +-- is-stream@1.1.0
+62 silly currentTree +-- is-subset@0.1.1
+62 silly currentTree +-- is-text-path@1.0.1
+62 silly currentTree +-- is-typedarray@1.0.0
+62 silly currentTree +-- is-utf8@0.2.1
+62 silly currentTree +-- is-windows@1.0.2
+62 silly currentTree +-- isarray@1.0.0
+62 silly currentTree +-- isexe@2.0.0
+62 silly currentTree +-- isobject@3.0.1
+62 silly currentTree +-- isstream@0.1.2
+62 silly currentTree +-- js-yaml@3.12.0
+62 silly currentTree +-- jsbn@0.1.1
+62 silly currentTree +-- json-parse-better-errors@1.0.2
+62 silly currentTree +-- json-schema-traverse@0.4.1
+62 silly currentTree +-- json-schema@0.2.3
+62 silly currentTree +-- json-stringify-safe@5.0.1
+62 silly currentTree +-- jsonfile@4.0.0
+62 silly currentTree +-- jsonparse@1.3.1
+62 silly currentTree +-- JSONStream@1.3.5
+62 silly currentTree +-- jsprim@1.4.1
+62 silly currentTree +-- jwa@1.1.6
+62 silly currentTree +-- jws@3.1.5
+62 silly currentTree +-- kind-of@6.0.2
+62 silly currentTree +-- lcid@2.0.0
+62 silly currentTree +-- lerna@3.5.0
+62 silly currentTree +-- libnpmaccess@3.0.1
+62 silly currentTree | +-- aproba@2.0.0
+62 silly currentTree | `-- get-stream@4.1.0
+62 silly currentTree +-- load-json-file@4.0.0
+62 silly currentTree +-- locate-path@3.0.0
+62 silly currentTree +-- lodash._reinterpolate@3.0.0
+62 silly currentTree +-- lodash.isstring@4.0.1
+62 silly currentTree +-- lodash.sortby@4.7.0
+62 silly currentTree +-- lodash.template@4.4.0
+62 silly currentTree +-- lodash.templatesettings@4.1.0
+62 silly currentTree +-- lodash@4.17.11
+62 silly currentTree +-- loud-rejection@1.6.0
+62 silly currentTree +-- lru-cache@4.1.4
+62 silly currentTree +-- make-dir@1.3.0
+62 silly currentTree +-- make-fetch-happen@4.0.1
+62 silly currentTree +-- map-age-cleaner@0.1.3
+62 silly currentTree +-- map-cache@0.2.2
+62 silly currentTree +-- map-obj@2.0.0
+62 silly currentTree +-- map-visit@1.0.0
+62 silly currentTree +-- media-typer@0.3.0
+62 silly currentTree +-- mem@4.0.0
+62 silly currentTree +-- meow@4.0.1
+62 silly currentTree +-- merge-descriptors@1.0.1
+62 silly currentTree +-- merge2@1.2.3
+62 silly currentTree +-- methods@1.1.2
+62 silly currentTree +-- micromatch@3.1.10
+62 silly currentTree +-- mime-db@1.37.0
+62 silly currentTree +-- mime-types@2.1.21
+62 silly currentTree +-- mime@1.4.1
+62 silly currentTree +-- mimic-fn@1.2.0
+62 silly currentTree +-- minimatch@3.0.4
+62 silly currentTree +-- minimist-options@3.0.2
+62 silly currentTree +-- minimist@1.2.0
+62 silly currentTree +-- minipass@2.3.5
+62 silly currentTree +-- minizlib@1.1.1
+62 silly currentTree +-- mississippi@3.0.0
+62 silly currentTree +-- mixin-deep@1.3.1
+62 silly currentTree | `-- is-extendable@1.0.1
+62 silly currentTree +-- mkdirp@0.5.1
+62 silly currentTree | `-- minimist@0.0.8
+62 silly currentTree +-- modify-values@1.0.1
+62 silly currentTree +-- move-concurrently@1.0.1
+62 silly currentTree +-- ms@2.0.0
+62 silly currentTree +-- multimatch@2.1.0
+62 silly currentTree +-- mute-stream@0.0.7
+62 silly currentTree +-- nanomatch@1.2.13
+62 silly currentTree +-- negotiator@0.6.1
+62 silly currentTree +-- nice-try@1.0.5
+62 silly currentTree +-- node-fetch-npm@2.0.2
+62 silly currentTree +-- node-forge@0.7.6
+62 silly currentTree +-- node-gyp@3.8.0
+62 silly currentTree | `-- semver@5.3.0
+62 silly currentTree +-- nopt@3.0.6
+62 silly currentTree +-- normalize-package-data@2.4.0
+62 silly currentTree +-- npm-bundled@1.0.5
+62 silly currentTree +-- npm-lifecycle@2.1.0
+62 silly currentTree +-- npm-package-arg@6.1.0
+62 silly currentTree +-- npm-packlist@1.1.12
+62 silly currentTree +-- npm-pick-manifest@2.2.3
+62 silly currentTree +-- npm-registry-fetch@3.8.0
+62 silly currentTree +-- npm-run-path@2.0.2
+62 silly currentTree +-- npmlog@4.1.2
+62 silly currentTree +-- number-is-nan@1.0.1
+62 silly currentTree +-- oauth-sign@0.9.0
+62 silly currentTree +-- object-assign@4.1.1
+62 silly currentTree +-- object-copy@0.1.0
+62 silly currentTree | +-- define-property@0.2.5
+62 silly currentTree | `-- kind-of@3.2.2
+62 silly currentTree +-- object-visit@1.0.1
+62 silly currentTree +-- object.pick@1.3.0
+62 silly currentTree +-- on-finished@2.3.0
+62 silly currentTree +-- once@1.4.0
+62 silly currentTree +-- onetime@2.0.1
+62 silly currentTree +-- optimist@0.6.1
+62 silly currentTree | `-- minimist@0.0.10
+62 silly currentTree +-- os-homedir@1.0.2
+62 silly currentTree +-- os-locale@3.0.1
+62 silly currentTree +-- os-tmpdir@1.0.2
+62 silly currentTree +-- osenv@0.1.5
+62 silly currentTree +-- p-defer@1.0.0
+62 silly currentTree +-- p-finally@1.0.0
+62 silly currentTree +-- p-is-promise@1.1.0
+62 silly currentTree +-- p-limit@2.0.0
+62 silly currentTree +-- p-locate@3.0.0
+62 silly currentTree +-- p-map-series@1.0.0
+62 silly currentTree +-- p-map@1.2.0
+62 silly currentTree +-- p-pipe@1.2.0
+62 silly currentTree +-- p-reduce@1.0.0
+62 silly currentTree +-- p-try@2.0.0
+62 silly currentTree +-- p-waterfall@1.0.0
+62 silly currentTree +-- pacote@9.2.3
+62 silly currentTree | +-- get-stream@4.1.0
+62 silly currentTree | `-- tar@4.4.8
+62 silly currentTree +-- parallel-transform@1.1.0
+62 silly currentTree +-- parse-github-repo-url@1.4.1
+62 silly currentTree +-- parse-json@4.0.0
+62 silly currentTree +-- parseurl@1.3.2
+62 silly currentTree +-- pascalcase@0.1.1
+62 silly currentTree +-- path-dirname@1.0.2
+62 silly currentTree +-- path-exists@3.0.0
+62 silly currentTree +-- path-is-absolute@1.0.1
+62 silly currentTree +-- path-key@2.0.1
+62 silly currentTree +-- path-to-regexp@0.1.7
+62 silly currentTree +-- path-type@3.0.0
+62 silly currentTree +-- performance-now@2.1.0
+62 silly currentTree +-- pify@3.0.0
+62 silly currentTree +-- pinkie-promise@2.0.1
+62 silly currentTree +-- pinkie@2.0.4
+62 silly currentTree +-- pkg-dir@2.0.0
+62 silly currentTree | +-- find-up@2.1.0
+62 silly currentTree | +-- locate-path@2.0.0
+62 silly currentTree | +-- p-limit@1.3.0
+62 silly currentTree | +-- p-locate@2.0.0
+62 silly currentTree | `-- p-try@1.0.0
+62 silly currentTree +-- posix-character-classes@0.1.1
+62 silly currentTree +-- process-nextick-args@2.0.0
+62 silly currentTree +-- promise-inflight@1.0.1
+62 silly currentTree +-- promise-retry@1.1.1
+62 silly currentTree +-- promzard@0.3.0
+62 silly currentTree +-- proto-list@1.2.4
+62 silly currentTree +-- protoduck@5.0.1
+62 silly currentTree +-- proxy-addr@2.0.4
+62 silly currentTree +-- pseudomap@1.0.2
+62 silly currentTree +-- psl@1.1.29
+62 silly currentTree +-- pump@3.0.0
+62 silly currentTree +-- pumpify@1.5.1
+62 silly currentTree | `-- pump@2.0.1
+62 silly currentTree +-- punycode@2.1.1
+62 silly currentTree +-- q@1.5.1
+62 silly currentTree +-- qs@6.5.2
+62 silly currentTree +-- quick-lru@1.1.0
+62 silly currentTree +-- range-parser@1.2.0
+62 silly currentTree +-- raw-body@2.3.3
+62 silly currentTree +-- read-cmd-shim@1.0.1
+62 silly currentTree +-- read-package-json@2.0.13
+62 silly currentTree +-- read-package-tree@5.2.1
+62 silly currentTree +-- read-pkg-up@3.0.0
+62 silly currentTree | +-- find-up@2.1.0
+62 silly currentTree | +-- locate-path@2.0.0
+62 silly currentTree | +-- p-limit@1.3.0
+62 silly currentTree | +-- p-locate@2.0.0
+62 silly currentTree | +-- p-try@1.0.0
+62 silly currentTree | `-- read-pkg@3.0.0
+62 silly currentTree +-- read-pkg@4.0.1
+62 silly currentTree +-- read@1.0.7
+62 silly currentTree +-- readable-stream@2.3.6
+62 silly currentTree +-- readdir-scoped-modules@1.0.2
+62 silly currentTree +-- redent@2.0.0
+62 silly currentTree +-- regex-not@1.0.2
+62 silly currentTree +-- repeat-element@1.1.3
+62 silly currentTree +-- repeat-string@1.6.1
+62 silly currentTree +-- repeating@2.0.1
+62 silly currentTree +-- request@2.88.0
+62 silly currentTree +-- require-directory@2.1.1
+62 silly currentTree +-- require-main-filename@1.0.1
+62 silly currentTree +-- resolve-cwd@2.0.0
+62 silly currentTree | `-- resolve-from@3.0.0
+62 silly currentTree +-- resolve-from@4.0.0
+62 silly currentTree +-- resolve-url@0.2.1
+62 silly currentTree +-- restore-cursor@2.0.0
+62 silly currentTree +-- ret@0.1.15
+62 silly currentTree +-- retry-axios@0.3.2
+62 silly currentTree +-- retry@0.10.1
+62 silly currentTree +-- rimraf@2.6.2
+62 silly currentTree +-- run-async@2.3.0
+62 silly currentTree +-- run-queue@1.0.3
+62 silly currentTree +-- rxjs@6.3.3
+62 silly currentTree +-- safe-buffer@5.1.2
+62 silly currentTree +-- safe-regex@1.1.0
+62 silly currentTree +-- safer-buffer@2.1.2
+62 silly currentTree +-- semver@5.6.0
+62 silly currentTree +-- send@0.16.2
+62 silly currentTree +-- serve-static@1.13.2
+62 silly currentTree +-- set-blocking@2.0.0
+62 silly currentTree +-- set-value@2.0.0
+62 silly currentTree | `-- extend-shallow@2.0.1
+62 silly currentTree +-- setprototypeof@1.1.0
+62 silly currentTree +-- shebang-command@1.2.0
+62 silly currentTree +-- shebang-regex@1.0.0
+62 silly currentTree +-- signal-exit@3.0.2
+62 silly currentTree +-- slash@1.0.0
+62 silly currentTree +-- slide@1.1.6
+62 silly currentTree +-- smart-buffer@4.0.1
+62 silly currentTree +-- snapdragon-node@2.1.1
+62 silly currentTree | +-- define-property@1.0.0
+62 silly currentTree | +-- is-accessor-descriptor@1.0.0
+62 silly currentTree | +-- is-data-descriptor@1.0.0
+62 silly currentTree | `-- is-descriptor@1.0.2
+62 silly currentTree +-- snapdragon-util@3.0.1
+62 silly currentTree | `-- kind-of@3.2.2
+62 silly currentTree +-- snapdragon@0.8.2
+62 silly currentTree | +-- define-property@0.2.5
+62 silly currentTree | `-- extend-shallow@2.0.1
+62 silly currentTree +-- socks-proxy-agent@4.0.1
+62 silly currentTree +-- socks@2.2.2
+62 silly currentTree +-- sort-keys@2.0.0
+62 silly currentTree +-- source-map-resolve@0.5.2
+62 silly currentTree +-- source-map-url@0.4.0
+62 silly currentTree +-- source-map@0.5.7
+62 silly currentTree +-- spawn-command@0.0.2-1
+62 silly currentTree +-- spdx-correct@3.0.2
+62 silly currentTree +-- spdx-exceptions@2.2.0
+62 silly currentTree +-- spdx-expression-parse@3.0.0
+62 silly currentTree +-- spdx-license-ids@3.0.2
+62 silly currentTree +-- split-string@3.1.0
+62 silly currentTree +-- split@1.0.1
+62 silly currentTree +-- split2@2.2.0
+62 silly currentTree +-- sprintf-js@1.0.3
+62 silly currentTree +-- sshpk@1.15.2
+62 silly currentTree +-- ssri@6.0.1
+62 silly currentTree +-- static-extend@0.1.2
+62 silly currentTree | `-- define-property@0.2.5
+62 silly currentTree +-- statuses@1.4.0
+62 silly currentTree +-- stream-each@1.2.3
+62 silly currentTree +-- stream-shift@1.0.0
+62 silly currentTree +-- string_decoder@1.1.1
+62 silly currentTree +-- string-template@1.0.0
+62 silly currentTree +-- string-width@2.1.1
+62 silly currentTree +-- strip-ansi@4.0.0
+62 silly currentTree +-- strip-bom@3.0.0
+62 silly currentTree +-- strip-eof@1.0.0
+62 silly currentTree +-- strip-indent@2.0.0
+62 silly currentTree +-- strong-log-transformer@2.0.0
+62 silly currentTree +-- supports-color@4.5.0
+62 silly currentTree | `-- has-flag@2.0.0
+62 silly currentTree +-- tar@2.2.1
+62 silly currentTree +-- temp-dir@1.0.0
+62 silly currentTree +-- temp-write@3.4.0
+62 silly currentTree +-- text-extensions@1.9.0
+62 silly currentTree +-- through@2.3.8
+62 silly currentTree +-- through2@2.0.5
+62 silly currentTree +-- tmp@0.0.33
+62 silly currentTree +-- to-object-path@0.3.0
+62 silly currentTree | `-- kind-of@3.2.2
+62 silly currentTree +-- to-regex-range@2.1.1
+62 silly currentTree +-- to-regex@3.0.2
+62 silly currentTree +-- tough-cookie@2.4.3
+62 silly currentTree | `-- punycode@1.4.1
+62 silly currentTree +-- tr46@1.0.1
+62 silly currentTree +-- tree-kill@1.2.1
+62 silly currentTree +-- trim-newlines@2.0.0
+62 silly currentTree +-- trim-off-newlines@1.0.1
+62 silly currentTree +-- tslib@1.9.3
+62 silly currentTree +-- tunnel-agent@0.6.0
+62 silly currentTree +-- tweetnacl@0.14.5
+62 silly currentTree +-- type-is@1.6.16
+62 silly currentTree +-- typedarray@0.0.6
+62 silly currentTree +-- uglify-js@3.4.9
+62 silly currentTree | `-- source-map@0.6.1
+62 silly currentTree +-- uid-number@0.0.6
+62 silly currentTree +-- umask@1.1.0
+62 silly currentTree +-- union-value@1.0.0
+62 silly currentTree | +-- extend-shallow@2.0.1
+62 silly currentTree | `-- set-value@0.4.3
+62 silly currentTree +-- unique-filename@1.1.1
+62 silly currentTree +-- unique-slug@2.0.1
+62 silly currentTree +-- universalify@0.1.2
+62 silly currentTree +-- unpipe@1.0.0
+62 silly currentTree +-- unset-value@1.0.0
+62 silly currentTree | +-- has-value@0.3.1
+62 silly currentTree | | `-- isobject@2.1.0
+62 silly currentTree | `-- has-values@0.1.4
+62 silly currentTree +-- uri-js@4.2.2
+62 silly currentTree +-- urix@0.1.0
+62 silly currentTree +-- use@3.1.1
+62 silly currentTree +-- util-deprecate@1.0.2
+62 silly currentTree +-- utils-merge@1.0.1
+62 silly currentTree +-- uuid@3.3.2
+62 silly currentTree +-- validate-npm-package-license@3.0.4
+62 silly currentTree +-- validate-npm-package-name@3.0.0
+62 silly currentTree +-- vary@1.1.2
+62 silly currentTree +-- verror@1.10.0
+62 silly currentTree +-- wcwidth@1.0.1
+62 silly currentTree +-- webidl-conversions@4.0.2
+62 silly currentTree +-- whatwg-url@7.0.0
+62 silly currentTree +-- which-module@2.0.0
+62 silly currentTree +-- which@1.3.1
+62 silly currentTree +-- wide-align@1.1.3
+62 silly currentTree +-- wordwrap@0.0.3
+62 silly currentTree +-- wrap-ansi@2.1.0
+62 silly currentTree | +-- ansi-regex@2.1.1
+62 silly currentTree | +-- is-fullwidth-code-point@1.0.0
+62 silly currentTree | +-- string-width@1.0.2
+62 silly currentTree | `-- strip-ansi@3.0.1
+62 silly currentTree +-- wrappy@1.0.2
+62 silly currentTree +-- write-file-atomic@2.3.0
+62 silly currentTree +-- write-json-file@2.3.0
+62 silly currentTree +-- write-pkg@3.2.0
+62 silly currentTree +-- xtend@4.0.1
+62 silly currentTree +-- y18n@4.0.0
+62 silly currentTree +-- yallist@3.0.3
+62 silly currentTree +-- yargs-parser@11.1.1
+62 silly currentTree `-- yargs@12.0.5
+63 silly idealTree chatbot-repo01@1.0.0
+63 silly idealTree +-- @lerna/add@3.5.0
+63 silly idealTree +-- @lerna/batch-packages@3.1.2
+63 silly idealTree +-- @lerna/bootstrap@3.5.0
+63 silly idealTree +-- @lerna/changed@3.5.0
+63 silly idealTree +-- @lerna/check-working-tree@3.5.0
+63 silly idealTree +-- @lerna/child-process@3.3.0
+63 silly idealTree | +-- execa@1.0.0
+63 silly idealTree | `-- get-stream@4.1.0
+63 silly idealTree +-- @lerna/clean@3.5.0
+63 silly idealTree +-- @lerna/cli@3.2.0
+63 silly idealTree +-- @lerna/collect-updates@3.5.0
+63 silly idealTree +-- @lerna/command@3.5.0
+63 silly idealTree | +-- execa@1.0.0
+63 silly idealTree | `-- get-stream@4.1.0
+63 silly idealTree +-- @lerna/conventional-commits@3.5.0
+63 silly idealTree | `-- get-stream@4.1.0
+63 silly idealTree +-- @lerna/create-symlink@3.3.0
+63 silly idealTree +-- @lerna/create@3.5.0
+63 silly idealTree | `-- camelcase@4.1.0
+63 silly idealTree +-- @lerna/describe-ref@3.5.0
+63 silly idealTree +-- @lerna/diff@3.5.0
+63 silly idealTree +-- @lerna/exec@3.5.0
+63 silly idealTree +-- @lerna/filter-options@3.5.0
+63 silly idealTree +-- @lerna/filter-packages@3.0.0
+63 silly idealTree +-- @lerna/get-npm-exec-opts@3.0.0
+63 silly idealTree +-- @lerna/global-options@3.1.3
+63 silly idealTree +-- @lerna/has-npm-version@3.3.0
+63 silly idealTree +-- @lerna/import@3.5.0
+63 silly idealTree +-- @lerna/init@3.5.0
+63 silly idealTree +-- @lerna/link@3.5.0
+63 silly idealTree +-- @lerna/list@3.5.0
+63 silly idealTree +-- @lerna/listable@3.0.0
+63 silly idealTree +-- @lerna/log-packed@3.0.4
+63 silly idealTree +-- @lerna/npm-conf@3.4.1
+63 silly idealTree +-- @lerna/npm-dist-tag@3.3.0
+63 silly idealTree +-- @lerna/npm-install@3.3.0
+63 silly idealTree +-- @lerna/npm-publish@3.3.1
+63 silly idealTree +-- @lerna/npm-run-script@3.3.0
+63 silly idealTree +-- @lerna/output@3.0.0
+63 silly idealTree +-- @lerna/package-graph@3.1.2
+63 silly idealTree +-- @lerna/package@3.0.0
+63 silly idealTree +-- @lerna/project@3.5.0
+63 silly idealTree +-- @lerna/prompt@3.3.1
+63 silly idealTree +-- @lerna/publish@3.5.0
+63 silly idealTree +-- @lerna/resolve-symlink@3.3.0
+63 silly idealTree +-- @lerna/rimraf-dir@3.3.0
+63 silly idealTree +-- @lerna/run-lifecycle@3.4.1
+63 silly idealTree +-- @lerna/run-parallel-batches@3.0.0
+63 silly idealTree +-- @lerna/run@3.5.0
+63 silly idealTree +-- @lerna/symlink-binary@3.3.0
+63 silly idealTree | `-- read-pkg@3.0.0
+63 silly idealTree +-- @lerna/symlink-dependencies@3.3.0
+63 silly idealTree +-- @lerna/timer@3.5.0
+63 silly idealTree +-- @lerna/validation-error@3.0.0
+63 silly idealTree +-- @lerna/version@3.5.0
+63 silly idealTree +-- @lerna/write-log-file@3.0.0
+63 silly idealTree +-- @mrmlnc/readdir-enhanced@2.2.1
+63 silly idealTree +-- @nodelib/fs.stat@1.1.3
+63 silly idealTree +-- @types/aws-lambda@0.0.33
+63 silly idealTree +-- @types/body-parser@1.17.0
+63 silly idealTree +-- @types/connect@3.4.32
+63 silly idealTree +-- @types/debug@0.0.30
+63 silly idealTree +-- @types/events@1.2.0
+63 silly idealTree +-- @types/express-serve-static-core@4.16.0
+63 silly idealTree +-- @types/express@4.16.0
+63 silly idealTree +-- @types/mime@2.0.0
+63 silly idealTree +-- @types/node@9.6.39
+63 silly idealTree +-- @types/range-parser@1.2.2
+63 silly idealTree +-- @types/serve-static@1.13.2
+63 silly idealTree +-- abbrev@1.1.1
+63 silly idealTree +-- accepts@1.3.5
+63 silly idealTree +-- actions-on-google@2.5.0
+63 silly idealTree | +-- debug@3.2.6
+63 silly idealTree | +-- gcp-metadata@0.6.3
+63 silly idealTree | +-- google-auth-library@1.6.1
+63 silly idealTree | `-- ms@2.1.1
+63 silly idealTree +-- agent-base@4.2.1
+63 silly idealTree +-- agentkeepalive@3.5.2
+63 silly idealTree +-- ajv@6.5.5
+63 silly idealTree +-- ansi-escapes@3.1.0
+63 silly idealTree +-- ansi-regex@3.0.0
+63 silly idealTree +-- ansi-styles@3.2.1
+63 silly idealTree +-- aproba@1.2.0
+63 silly idealTree +-- are-we-there-yet@1.1.5
+63 silly idealTree +-- argparse@1.0.10
+63 silly idealTree +-- arr-diff@4.0.0
+63 silly idealTree +-- arr-flatten@1.1.0
+63 silly idealTree +-- arr-union@3.1.0
+63 silly idealTree +-- array-differ@1.0.0
+63 silly idealTree +-- array-find-index@1.0.2
+63 silly idealTree +-- array-flatten@1.1.1
+63 silly idealTree +-- array-ify@1.0.0
+63 silly idealTree +-- array-union@1.0.2
+63 silly idealTree +-- array-uniq@1.0.3
+63 silly idealTree +-- array-unique@0.3.2
+63 silly idealTree +-- arrify@1.0.1
+63 silly idealTree +-- asap@2.0.6
+63 silly idealTree +-- asn1@0.2.4
+63 silly idealTree +-- assert-plus@1.0.0
+63 silly idealTree +-- assign-symbols@1.0.0
+63 silly idealTree +-- async@2.6.1
+63 silly idealTree +-- asynckit@0.4.0
+63 silly idealTree +-- atob@2.1.2
+63 silly idealTree +-- aws-sign2@0.7.0
+63 silly idealTree +-- aws4@1.8.0
+63 silly idealTree +-- axios@0.18.0
+63 silly idealTree +-- balanced-match@1.0.0
+63 silly idealTree +-- base@0.11.2
+63 silly idealTree | +-- define-property@1.0.0
+63 silly idealTree | +-- is-accessor-descriptor@1.0.0
+63 silly idealTree | +-- is-data-descriptor@1.0.0
+63 silly idealTree | `-- is-descriptor@1.0.2
+63 silly idealTree +-- bcrypt-pbkdf@1.0.2
+63 silly idealTree +-- block-stream@0.0.9
+63 silly idealTree +-- bluebird@3.5.3
+63 silly idealTree +-- body-parser@1.18.3
+63 silly idealTree +-- brace-expansion@1.1.11
+63 silly idealTree +-- braces@2.3.2
+63 silly idealTree | `-- extend-shallow@2.0.1
+63 silly idealTree +-- buffer-equal-constant-time@1.0.1
+63 silly idealTree +-- buffer-from@1.1.1
+63 silly idealTree +-- builtin-modules@1.1.1
+63 silly idealTree +-- builtins@1.0.3
+63 silly idealTree +-- byline@5.0.0
+63 silly idealTree +-- byte-size@4.0.4
+63 silly idealTree +-- bytes@3.0.0
+63 silly idealTree +-- cacache@11.3.1
+63 silly idealTree +-- cache-base@1.0.1
+63 silly idealTree +-- call-me-maybe@1.0.1
+63 silly idealTree +-- caller-callsite@2.0.0
+63 silly idealTree +-- caller-path@2.0.0
+63 silly idealTree +-- callsites@2.0.0
+63 silly idealTree +-- camelcase-keys@4.2.0
+63 silly idealTree | `-- camelcase@4.1.0
+63 silly idealTree +-- camelcase@5.0.0
+63 silly idealTree +-- caseless@0.12.0
+63 silly idealTree +-- chalk@2.4.1
+63 silly idealTree | `-- supports-color@5.5.0
+63 silly idealTree +-- chardet@0.7.0
+63 silly idealTree +-- chownr@1.1.1
+63 silly idealTree +-- ci-info@1.6.0
+63 silly idealTree +-- class-utils@0.3.6
+63 silly idealTree | `-- define-property@0.2.5
+63 silly idealTree +-- cli-cursor@2.1.0
+63 silly idealTree +-- cli-width@2.2.0
+63 silly idealTree +-- cliui@4.1.0
+63 silly idealTree +-- clone@1.0.4
+63 silly idealTree +-- cmd-shim@2.0.2
+63 silly idealTree +-- code-point-at@1.1.0
+63 silly idealTree +-- collection-visit@1.0.0
+63 silly idealTree +-- color-convert@1.9.3
+63 silly idealTree +-- color-name@1.1.3
+63 silly idealTree +-- columnify@1.5.4
+63 silly idealTree | +-- ansi-regex@2.1.1
+63 silly idealTree | `-- strip-ansi@3.0.1
+63 silly idealTree +-- combined-stream@1.0.7
+63 silly idealTree +-- commander@2.17.1
+63 silly idealTree +-- compare-func@1.3.2
+63 silly idealTree | `-- dot-prop@3.0.0
+63 silly idealTree +-- component-emitter@1.2.1
+63 silly idealTree +-- concat-map@0.0.1
+63 silly idealTree +-- concat-stream@1.6.2
+63 silly idealTree +-- concurrently@4.1.0
+63 silly idealTree +-- config-chain@1.1.12
+63 silly idealTree +-- console-control-strings@1.1.0
+63 silly idealTree +-- content-disposition@0.5.2
+63 silly idealTree +-- content-type@1.0.4
+63 silly idealTree +-- conventional-changelog-angular@5.0.2
+63 silly idealTree +-- conventional-changelog-core@3.1.5
+63 silly idealTree | `-- read-pkg@3.0.0
+63 silly idealTree +-- conventional-changelog-preset-loader@2.0.2
+63 silly idealTree +-- conventional-changelog-writer@4.0.2
+63 silly idealTree +-- conventional-commits-filter@2.0.1
+63 silly idealTree +-- conventional-commits-parser@3.0.1
+63 silly idealTree +-- conventional-recommended-bump@4.0.4
+63 silly idealTree +-- cookie-signature@1.0.6
+63 silly idealTree +-- cookie@0.3.1
+63 silly idealTree +-- copy-concurrently@1.0.5
+63 silly idealTree +-- copy-descriptor@0.1.1
+63 silly idealTree +-- core-util-is@1.0.2
+63 silly idealTree +-- cosmiconfig@5.0.7
+63 silly idealTree +-- cross-spawn@6.0.5
+63 silly idealTree +-- currently-unhandled@0.4.1
+63 silly idealTree +-- cyclist@0.2.2
+63 silly idealTree +-- dargs@4.1.0
+63 silly idealTree +-- dashdash@1.14.1
+63 silly idealTree +-- date-fns@1.29.0
+63 silly idealTree +-- dateformat@3.0.3
+63 silly idealTree +-- debug@2.6.9
+63 silly idealTree +-- debuglog@1.0.1
+63 silly idealTree +-- decamelize-keys@1.1.0
+63 silly idealTree | `-- map-obj@1.0.1
+63 silly idealTree +-- decamelize@1.2.0
+63 silly idealTree +-- decode-uri-component@0.2.0
+63 silly idealTree +-- dedent@0.7.0
+63 silly idealTree +-- defaults@1.0.3
+63 silly idealTree +-- define-property@2.0.2
+63 silly idealTree | +-- is-accessor-descriptor@1.0.0
+63 silly idealTree | +-- is-data-descriptor@1.0.0
+63 silly idealTree | `-- is-descriptor@1.0.2
+63 silly idealTree +-- delayed-stream@1.0.0
+63 silly idealTree +-- delegates@1.0.0
+63 silly idealTree +-- depd@1.1.2
+63 silly idealTree +-- destroy@1.0.4
+63 silly idealTree +-- detect-indent@5.0.0
+63 silly idealTree +-- dezalgo@1.0.3
+63 silly idealTree +-- dialogflow-fulfillment@0.6.1
+63 silly idealTree | +-- debug@3.2.6
+63 silly idealTree | `-- ms@2.1.1
+63 silly idealTree +-- dir-glob@2.0.0
+63 silly idealTree +-- dot-prop@4.2.0
+63 silly idealTree +-- duplexer@0.1.1
+63 silly idealTree +-- duplexify@3.6.1
+63 silly idealTree +-- ecc-jsbn@0.1.2
+63 silly idealTree +-- ecdsa-sig-formatter@1.0.10
+63 silly idealTree +-- ee-first@1.1.1
+63 silly idealTree +-- ejs@2.6.1
+63 silly idealTree +-- encodeurl@1.0.2
+63 silly idealTree +-- encoding@0.1.12
+63 silly idealTree +-- end-of-stream@1.4.1
+63 silly idealTree +-- err-code@1.1.2
+63 silly idealTree +-- error-ex@1.3.2
+63 silly idealTree +-- es6-promise@4.2.5
+63 silly idealTree +-- es6-promisify@5.0.0
+63 silly idealTree +-- escape-html@1.0.3
+63 silly idealTree +-- escape-string-regexp@1.0.5
+63 silly idealTree +-- esprima@4.0.1
+63 silly idealTree +-- etag@1.8.1
+63 silly idealTree +-- execa@0.10.0
+63 silly idealTree +-- expand-brackets@2.1.4
+63 silly idealTree | +-- define-property@0.2.5
+63 silly idealTree | `-- extend-shallow@2.0.1
+63 silly idealTree +-- express@4.16.4
+63 silly idealTree +-- extend-shallow@3.0.2
+63 silly idealTree | `-- is-extendable@1.0.1
+63 silly idealTree +-- extend@3.0.2
+63 silly idealTree +-- external-editor@3.0.3
+63 silly idealTree | `-- iconv-lite@0.4.24
+63 silly idealTree +-- extglob@2.0.4
+63 silly idealTree | +-- define-property@1.0.0
+63 silly idealTree | +-- extend-shallow@2.0.1
+63 silly idealTree | +-- is-accessor-descriptor@1.0.0
+63 silly idealTree | +-- is-data-descriptor@1.0.0
+63 silly idealTree | `-- is-descriptor@1.0.2
+63 silly idealTree +-- extsprintf@1.3.0
+63 silly idealTree +-- fast-deep-equal@2.0.1
+63 silly idealTree +-- fast-glob@2.2.4
+63 silly idealTree | `-- is-glob@4.0.0
+63 silly idealTree +-- fast-json-stable-stringify@2.0.0
+63 silly idealTree +-- figgy-pudding@3.5.1
+63 silly idealTree +-- figures@2.0.0
+63 silly idealTree +-- fill-range@4.0.0
+63 silly idealTree | `-- extend-shallow@2.0.1
+63 silly idealTree +-- finalhandler@1.1.1
+63 silly idealTree +-- find-up@3.0.0
+63 silly idealTree +-- fire-admin@0.0.0
+63 silly idealTree +-- flush-write-stream@1.0.3
+63 silly idealTree +-- follow-redirects@1.5.10
+63 silly idealTree | `-- debug@3.1.0
+63 silly idealTree +-- for-in@1.0.2
+63 silly idealTree +-- forever-agent@0.6.1
+63 silly idealTree +-- form-data@2.3.3
+63 silly idealTree +-- forwarded@0.1.2
+63 silly idealTree +-- fragment-cache@0.2.1
+63 silly idealTree +-- fresh@0.5.2
+63 silly idealTree +-- from2@2.3.0
+63 silly idealTree +-- fs-extra@7.0.1
+63 silly idealTree +-- fs-minipass@1.2.5
+63 silly idealTree +-- fs-write-stream-atomic@1.0.10
+63 silly idealTree +-- fs.realpath@1.0.0
+63 silly idealTree +-- fstream@1.0.11
+63 silly idealTree +-- g@2.0.1
+63 silly idealTree +-- gauge@2.7.4
+63 silly idealTree | +-- ansi-regex@2.1.1
+63 silly idealTree | +-- is-fullwidth-code-point@1.0.0
+63 silly idealTree | +-- string-width@1.0.2
+63 silly idealTree | `-- strip-ansi@3.0.1
+63 silly idealTree +-- genfun@5.0.0
+63 silly idealTree +-- get-caller-file@1.0.3
+63 silly idealTree +-- get-pkg-repo@1.4.0
+63 silly idealTree | +-- camelcase-keys@2.1.0
+63 silly idealTree | +-- camelcase@2.1.1
+63 silly idealTree | +-- find-up@1.1.2
+63 silly idealTree | +-- indent-string@2.1.0
+63 silly idealTree | +-- load-json-file@1.1.0
+63 silly idealTree | +-- map-obj@1.0.1
+63 silly idealTree | +-- meow@3.7.0
+63 silly idealTree | +-- parse-json@2.2.0
+63 silly idealTree | +-- path-exists@2.1.0
+63 silly idealTree | +-- path-type@1.1.0
+63 silly idealTree | +-- pify@2.3.0
+63 silly idealTree | +-- read-pkg-up@1.0.1
+63 silly idealTree | +-- read-pkg@1.1.0
+63 silly idealTree | +-- redent@1.0.0
+63 silly idealTree | +-- strip-bom@2.0.0
+63 silly idealTree | +-- strip-indent@1.0.1
+63 silly idealTree | `-- trim-newlines@1.0.0
+63 silly idealTree +-- get-port@3.2.0
+63 silly idealTree +-- get-stdin@4.0.1
+63 silly idealTree +-- get-stream@3.0.0
+63 silly idealTree +-- get-value@2.0.6
+63 silly idealTree +-- getpass@0.1.7
+63 silly idealTree +-- git-raw-commits@2.0.0
+63 silly idealTree +-- git-remote-origin-url@2.0.0
+63 silly idealTree | `-- pify@2.3.0
+63 silly idealTree +-- git-semver-tags@2.0.2
+63 silly idealTree +-- gitconfiglocal@1.0.0
+63 silly idealTree +-- glob-parent@3.1.0
+63 silly idealTree +-- glob-to-regexp@0.3.0
+63 silly idealTree +-- glob@7.1.3
+63 silly idealTree +-- globby@8.0.1
+63 silly idealTree +-- google-p12-pem@1.0.2
+63 silly idealTree +-- googleapis@27.0.0
+63 silly idealTree | +-- gcp-metadata@0.6.3
+63 silly idealTree | `-- google-auth-library@1.6.1
+63 silly idealTree +-- graceful-fs@4.1.15
+63 silly idealTree +-- gtoken@2.3.0
+63 silly idealTree | `-- mime@2.4.0
+63 silly idealTree +-- handlebars@4.0.12
+63 silly idealTree | `-- source-map@0.6.1
+63 silly idealTree +-- har-schema@2.0.0
+63 silly idealTree +-- har-validator@5.1.3
+63 silly idealTree +-- has-flag@3.0.0
+63 silly idealTree +-- has-unicode@2.0.1
+63 silly idealTree +-- has-value@1.0.0
+63 silly idealTree +-- has-values@1.0.0
+63 silly idealTree | `-- kind-of@4.0.0
+63 silly idealTree +-- hosted-git-info@2.7.1
+63 silly idealTree +-- http-cache-semantics@3.8.1
+63 silly idealTree +-- http-errors@1.6.3
+63 silly idealTree +-- http-proxy-agent@2.1.0
+63 silly idealTree | `-- debug@3.1.0
+63 silly idealTree +-- http-signature@1.2.0
+63 silly idealTree +-- https-proxy-agent@2.2.1
+63 silly idealTree | +-- debug@3.2.6
+63 silly idealTree | `-- ms@2.1.1
+63 silly idealTree +-- humanize-ms@1.2.1
+63 silly idealTree +-- iconv-lite@0.4.23
+63 silly idealTree +-- iferr@0.1.5
+63 silly idealTree +-- ignore-walk@3.0.1
+63 silly idealTree +-- ignore@3.3.10
+63 silly idealTree +-- import-fresh@2.0.0
+63 silly idealTree | `-- resolve-from@3.0.0
+63 silly idealTree +-- import-local@1.0.0
+63 silly idealTree +-- imurmurhash@0.1.4
+63 silly idealTree +-- indent-string@3.2.0
+63 silly idealTree +-- inflight@1.0.6
+63 silly idealTree +-- inherits@2.0.3
+63 silly idealTree +-- ini@1.3.5
+63 silly idealTree +-- init-package-json@1.10.3
+63 silly idealTree +-- inquirer@6.2.0
+63 silly idealTree +-- invert-kv@2.0.0
+63 silly idealTree +-- ip@1.1.5
+63 silly idealTree +-- ipaddr.js@1.8.0
+63 silly idealTree +-- is-accessor-descriptor@0.1.6
+63 silly idealTree | `-- kind-of@3.2.2
+63 silly idealTree +-- is-arrayish@0.2.1
+63 silly idealTree +-- is-buffer@1.1.6
+63 silly idealTree +-- is-builtin-module@1.0.0
+63 silly idealTree +-- is-ci@1.2.1
+63 silly idealTree +-- is-data-descriptor@0.1.4
+63 silly idealTree | `-- kind-of@3.2.2
+63 silly idealTree +-- is-descriptor@0.1.6
+63 silly idealTree | `-- kind-of@5.1.0
+63 silly idealTree +-- is-directory@0.3.1
+63 silly idealTree +-- is-extendable@0.1.1
+63 silly idealTree +-- is-extglob@2.1.1
+63 silly idealTree +-- is-finite@1.0.2
+63 silly idealTree +-- is-fullwidth-code-point@2.0.0
+63 silly idealTree +-- is-glob@3.1.0
+63 silly idealTree +-- is-number@3.0.0
+63 silly idealTree | `-- kind-of@3.2.2
+63 silly idealTree +-- is-obj@1.0.1
+63 silly idealTree +-- is-plain-obj@1.1.0
+63 silly idealTree +-- is-plain-object@2.0.4
+63 silly idealTree +-- is-promise@2.1.0
+63 silly idealTree +-- is-stream@1.1.0
+63 silly idealTree +-- is-subset@0.1.1
+63 silly idealTree +-- is-text-path@1.0.1
+63 silly idealTree +-- is-typedarray@1.0.0
+63 silly idealTree +-- is-utf8@0.2.1
+63 silly idealTree +-- is-windows@1.0.2
+63 silly idealTree +-- isarray@1.0.0
+63 silly idealTree +-- isexe@2.0.0
+63 silly idealTree +-- isobject@3.0.1
+63 silly idealTree +-- isstream@0.1.2
+63 silly idealTree +-- js-yaml@3.12.0
+63 silly idealTree +-- jsbn@0.1.1
+63 silly idealTree +-- json-parse-better-errors@1.0.2
+63 silly idealTree +-- json-schema-traverse@0.4.1
+63 silly idealTree +-- json-schema@0.2.3
+63 silly idealTree +-- json-stringify-safe@5.0.1
+63 silly idealTree +-- jsonfile@4.0.0
+63 silly idealTree +-- jsonparse@1.3.1
+63 silly idealTree +-- JSONStream@1.3.5
+63 silly idealTree +-- jsprim@1.4.1
+63 silly idealTree +-- jwa@1.1.6
+63 silly idealTree +-- jws@3.1.5
+63 silly idealTree +-- kind-of@6.0.2
+63 silly idealTree +-- lcid@2.0.0
+63 silly idealTree +-- lerna@3.5.0
+63 silly idealTree +-- libnpmaccess@3.0.1
+63 silly idealTree | +-- aproba@2.0.0
+63 silly idealTree | `-- get-stream@4.1.0
+63 silly idealTree +-- load-json-file@4.0.0
+63 silly idealTree +-- locate-path@3.0.0
+63 silly idealTree +-- lodash._reinterpolate@3.0.0
+63 silly idealTree +-- lodash.isstring@4.0.1
+63 silly idealTree +-- lodash.sortby@4.7.0
+63 silly idealTree +-- lodash.template@4.4.0
+63 silly idealTree +-- lodash.templatesettings@4.1.0
+63 silly idealTree +-- lodash@4.17.11
+63 silly idealTree +-- loud-rejection@1.6.0
+63 silly idealTree +-- lru-cache@4.1.4
+63 silly idealTree +-- make-dir@1.3.0
+63 silly idealTree +-- make-fetch-happen@4.0.1
+63 silly idealTree +-- map-age-cleaner@0.1.3
+63 silly idealTree +-- map-cache@0.2.2
+63 silly idealTree +-- map-obj@2.0.0
+63 silly idealTree +-- map-visit@1.0.0
+63 silly idealTree +-- media-typer@0.3.0
+63 silly idealTree +-- mem@4.0.0
+63 silly idealTree +-- meow@4.0.1
+63 silly idealTree +-- merge-descriptors@1.0.1
+63 silly idealTree +-- merge2@1.2.3
+63 silly idealTree +-- methods@1.1.2
+63 silly idealTree +-- micromatch@3.1.10
+63 silly idealTree +-- mime-db@1.37.0
+63 silly idealTree +-- mime-types@2.1.21
+63 silly idealTree +-- mime@1.4.1
+63 silly idealTree +-- mimic-fn@1.2.0
+63 silly idealTree +-- minimatch@3.0.4
+63 silly idealTree +-- minimist-options@3.0.2
+63 silly idealTree +-- minimist@1.2.0
+63 silly idealTree +-- minipass@2.3.5
+63 silly idealTree +-- minizlib@1.1.1
+63 silly idealTree +-- mississippi@3.0.0
+63 silly idealTree +-- mixin-deep@1.3.1
+63 silly idealTree | `-- is-extendable@1.0.1
+63 silly idealTree +-- mkdirp@0.5.1
+63 silly idealTree | `-- minimist@0.0.8
+63 silly idealTree +-- modify-values@1.0.1
+63 silly idealTree +-- move-concurrently@1.0.1
+63 silly idealTree +-- ms@2.0.0
+63 silly idealTree +-- multimatch@2.1.0
+63 silly idealTree +-- mute-stream@0.0.7
+63 silly idealTree +-- nanomatch@1.2.13
+63 silly idealTree +-- negotiator@0.6.1
+63 silly idealTree +-- nice-try@1.0.5
+63 silly idealTree +-- node-fetch-npm@2.0.2
+63 silly idealTree +-- node-forge@0.7.6
+63 silly idealTree +-- node-gyp@3.8.0
+63 silly idealTree | `-- semver@5.3.0
+63 silly idealTree +-- nopt@3.0.6
+63 silly idealTree +-- normalize-package-data@2.4.0
+63 silly idealTree +-- npm-bundled@1.0.5
+63 silly idealTree +-- npm-lifecycle@2.1.0
+63 silly idealTree +-- npm-package-arg@6.1.0
+63 silly idealTree +-- npm-packlist@1.1.12
+63 silly idealTree +-- npm-pick-manifest@2.2.3
+63 silly idealTree +-- npm-registry-fetch@3.8.0
+63 silly idealTree +-- npm-run-path@2.0.2
+63 silly idealTree +-- npmlog@4.1.2
+63 silly idealTree +-- number-is-nan@1.0.1
+63 silly idealTree +-- oauth-sign@0.9.0
+63 silly idealTree +-- object-assign@4.1.1
+63 silly idealTree +-- object-copy@0.1.0
+63 silly idealTree | +-- define-property@0.2.5
+63 silly idealTree | `-- kind-of@3.2.2
+63 silly idealTree +-- object-visit@1.0.1
+63 silly idealTree +-- object.pick@1.3.0
+63 silly idealTree +-- on-finished@2.3.0
+63 silly idealTree +-- once@1.4.0
+63 silly idealTree +-- onetime@2.0.1
+63 silly idealTree +-- optimist@0.6.1
+63 silly idealTree | `-- minimist@0.0.10
+63 silly idealTree +-- os-homedir@1.0.2
+63 silly idealTree +-- os-locale@3.0.1
+63 silly idealTree +-- os-tmpdir@1.0.2
+63 silly idealTree +-- osenv@0.1.5
+63 silly idealTree +-- p-defer@1.0.0
+63 silly idealTree +-- p-finally@1.0.0
+63 silly idealTree +-- p-is-promise@1.1.0
+63 silly idealTree +-- p-limit@2.0.0
+63 silly idealTree +-- p-locate@3.0.0
+63 silly idealTree +-- p-map-series@1.0.0
+63 silly idealTree +-- p-map@1.2.0
+63 silly idealTree +-- p-pipe@1.2.0
+63 silly idealTree +-- p-reduce@1.0.0
+63 silly idealTree +-- p-try@2.0.0
+63 silly idealTree +-- p-waterfall@1.0.0
+63 silly idealTree +-- pacote@9.2.3
+63 silly idealTree | +-- get-stream@4.1.0
+63 silly idealTree | `-- tar@4.4.8
+63 silly idealTree +-- parallel-transform@1.1.0
+63 silly idealTree +-- parse-github-repo-url@1.4.1
+63 silly idealTree +-- parse-json@4.0.0
+63 silly idealTree +-- parseurl@1.3.2
+63 silly idealTree +-- pascalcase@0.1.1
+63 silly idealTree +-- path-dirname@1.0.2
+63 silly idealTree +-- path-exists@3.0.0
+63 silly idealTree +-- path-is-absolute@1.0.1
+63 silly idealTree +-- path-key@2.0.1
+63 silly idealTree +-- path-to-regexp@0.1.7
+63 silly idealTree +-- path-type@3.0.0
+63 silly idealTree +-- performance-now@2.1.0
+63 silly idealTree +-- pify@3.0.0
+63 silly idealTree +-- pinkie-promise@2.0.1
+63 silly idealTree +-- pinkie@2.0.4
+63 silly idealTree +-- pkg-dir@2.0.0
+63 silly idealTree | +-- find-up@2.1.0
+63 silly idealTree | +-- locate-path@2.0.0
+63 silly idealTree | +-- p-limit@1.3.0
+63 silly idealTree | +-- p-locate@2.0.0
+63 silly idealTree | `-- p-try@1.0.0
+63 silly idealTree +-- posix-character-classes@0.1.1
+63 silly idealTree +-- process-nextick-args@2.0.0
+63 silly idealTree +-- promise-inflight@1.0.1
+63 silly idealTree +-- promise-retry@1.1.1
+63 silly idealTree +-- promzard@0.3.0
+63 silly idealTree +-- proto-list@1.2.4
+63 silly idealTree +-- protoduck@5.0.1
+63 silly idealTree +-- proxy-addr@2.0.4
+63 silly idealTree +-- pseudomap@1.0.2
+63 silly idealTree +-- psl@1.1.29
+63 silly idealTree +-- pump@3.0.0
+63 silly idealTree +-- pumpify@1.5.1
+63 silly idealTree | `-- pump@2.0.1
+63 silly idealTree +-- punycode@2.1.1
+63 silly idealTree +-- q@1.5.1
+63 silly idealTree +-- qs@6.5.2
+63 silly idealTree +-- quick-lru@1.1.0
+63 silly idealTree +-- range-parser@1.2.0
+63 silly idealTree +-- raw-body@2.3.3
+63 silly idealTree +-- read-cmd-shim@1.0.1
+63 silly idealTree +-- read-package-json@2.0.13
+63 silly idealTree +-- read-package-tree@5.2.1
+63 silly idealTree +-- read-pkg-up@3.0.0
+63 silly idealTree | +-- find-up@2.1.0
+63 silly idealTree | +-- locate-path@2.0.0
+63 silly idealTree | +-- p-limit@1.3.0
+63 silly idealTree | +-- p-locate@2.0.0
+63 silly idealTree | +-- p-try@1.0.0
+63 silly idealTree | `-- read-pkg@3.0.0
+63 silly idealTree +-- read-pkg@4.0.1
+63 silly idealTree +-- read@1.0.7
+63 silly idealTree +-- readable-stream@2.3.6
+63 silly idealTree +-- readdir-scoped-modules@1.0.2
+63 silly idealTree +-- redent@2.0.0
+63 silly idealTree +-- regex-not@1.0.2
+63 silly idealTree +-- repeat-element@1.1.3
+63 silly idealTree +-- repeat-string@1.6.1
+63 silly idealTree +-- repeating@2.0.1
+63 silly idealTree +-- request@2.88.0
+63 silly idealTree +-- require-directory@2.1.1
+63 silly idealTree +-- require-main-filename@1.0.1
+63 silly idealTree +-- resolve-cwd@2.0.0
+63 silly idealTree | `-- resolve-from@3.0.0
+63 silly idealTree +-- resolve-from@4.0.0
+63 silly idealTree +-- resolve-url@0.2.1
+63 silly idealTree +-- restore-cursor@2.0.0
+63 silly idealTree +-- ret@0.1.15
+63 silly idealTree +-- retry-axios@0.3.2
+63 silly idealTree +-- retry@0.10.1
+63 silly idealTree +-- rimraf@2.6.2
+63 silly idealTree +-- run-async@2.3.0
+63 silly idealTree +-- run-queue@1.0.3
+63 silly idealTree +-- rxjs@6.3.3
+63 silly idealTree +-- safe-buffer@5.1.2
+63 silly idealTree +-- safe-regex@1.1.0
+63 silly idealTree +-- safer-buffer@2.1.2
+63 silly idealTree +-- semver@5.6.0
+63 silly idealTree +-- send@0.16.2
+63 silly idealTree +-- serve-static@1.13.2
+63 silly idealTree +-- set-blocking@2.0.0
+63 silly idealTree +-- set-value@2.0.0
+63 silly idealTree | `-- extend-shallow@2.0.1
+63 silly idealTree +-- setprototypeof@1.1.0
+63 silly idealTree +-- shebang-command@1.2.0
+63 silly idealTree +-- shebang-regex@1.0.0
+63 silly idealTree +-- signal-exit@3.0.2
+63 silly idealTree +-- slash@1.0.0
+63 silly idealTree +-- slide@1.1.6
+63 silly idealTree +-- smart-buffer@4.0.1
+63 silly idealTree +-- snapdragon-node@2.1.1
+63 silly idealTree | +-- define-property@1.0.0
+63 silly idealTree | +-- is-accessor-descriptor@1.0.0
+63 silly idealTree | +-- is-data-descriptor@1.0.0
+63 silly idealTree | `-- is-descriptor@1.0.2
+63 silly idealTree +-- snapdragon-util@3.0.1
+63 silly idealTree | `-- kind-of@3.2.2
+63 silly idealTree +-- snapdragon@0.8.2
+63 silly idealTree | +-- define-property@0.2.5
+63 silly idealTree | `-- extend-shallow@2.0.1
+63 silly idealTree +-- socks-proxy-agent@4.0.1
+63 silly idealTree +-- socks@2.2.2
+63 silly idealTree +-- sort-keys@2.0.0
+63 silly idealTree +-- source-map-resolve@0.5.2
+63 silly idealTree +-- source-map-url@0.4.0
+63 silly idealTree +-- source-map@0.5.7
+63 silly idealTree +-- spawn-command@0.0.2-1
+63 silly idealTree +-- spdx-correct@3.0.2
+63 silly idealTree +-- spdx-exceptions@2.2.0
+63 silly idealTree +-- spdx-expression-parse@3.0.0
+63 silly idealTree +-- spdx-license-ids@3.0.2
+63 silly idealTree +-- split-string@3.1.0
+63 silly idealTree +-- split@1.0.1
+63 silly idealTree +-- split2@2.2.0
+63 silly idealTree +-- sprintf-js@1.0.3
+63 silly idealTree +-- sshpk@1.15.2
+63 silly idealTree +-- ssri@6.0.1
+63 silly idealTree +-- static-extend@0.1.2
+63 silly idealTree | `-- define-property@0.2.5
+63 silly idealTree +-- statuses@1.4.0
+63 silly idealTree +-- stream-each@1.2.3
+63 silly idealTree +-- stream-shift@1.0.0
+63 silly idealTree +-- string_decoder@1.1.1
+63 silly idealTree +-- string-template@1.0.0
+63 silly idealTree +-- string-width@2.1.1
+63 silly idealTree +-- strip-ansi@4.0.0
+63 silly idealTree +-- strip-bom@3.0.0
+63 silly idealTree +-- strip-eof@1.0.0
+63 silly idealTree +-- strip-indent@2.0.0
+63 silly idealTree +-- strong-log-transformer@2.0.0
+63 silly idealTree +-- supports-color@4.5.0
+63 silly idealTree | `-- has-flag@2.0.0
+63 silly idealTree +-- tar@2.2.1
+63 silly idealTree +-- temp-dir@1.0.0
+63 silly idealTree +-- temp-write@3.4.0
+63 silly idealTree +-- text-extensions@1.9.0
+63 silly idealTree +-- through@2.3.8
+63 silly idealTree +-- through2@2.0.5
+63 silly idealTree +-- tmp@0.0.33
+63 silly idealTree +-- to-object-path@0.3.0
+63 silly idealTree | `-- kind-of@3.2.2
+63 silly idealTree +-- to-regex-range@2.1.1
+63 silly idealTree +-- to-regex@3.0.2
+63 silly idealTree +-- tough-cookie@2.4.3
+63 silly idealTree | `-- punycode@1.4.1
+63 silly idealTree +-- tr46@1.0.1
+63 silly idealTree +-- tree-kill@1.2.1
+63 silly idealTree +-- trim-newlines@2.0.0
+63 silly idealTree +-- trim-off-newlines@1.0.1
+63 silly idealTree +-- tslib@1.9.3
+63 silly idealTree +-- tunnel-agent@0.6.0
+63 silly idealTree +-- tweetnacl@0.14.5
+63 silly idealTree +-- type-is@1.6.16
+63 silly idealTree +-- typedarray@0.0.6
+63 silly idealTree +-- uglify-js@3.4.9
+63 silly idealTree | `-- source-map@0.6.1
+63 silly idealTree +-- uid-number@0.0.6
+63 silly idealTree +-- umask@1.1.0
+63 silly idealTree +-- union-value@1.0.0
+63 silly idealTree | +-- extend-shallow@2.0.1
+63 silly idealTree | `-- set-value@0.4.3
+63 silly idealTree +-- unique-filename@1.1.1
+63 silly idealTree +-- unique-slug@2.0.1
+63 silly idealTree +-- universalify@0.1.2
+63 silly idealTree +-- unpipe@1.0.0
+63 silly idealTree +-- unset-value@1.0.0
+63 silly idealTree | +-- has-value@0.3.1
+63 silly idealTree | | `-- isobject@2.1.0
+63 silly idealTree | `-- has-values@0.1.4
+63 silly idealTree +-- uri-js@4.2.2
+63 silly idealTree +-- urix@0.1.0
+63 silly idealTree +-- use@3.1.1
+63 silly idealTree +-- util-deprecate@1.0.2
+63 silly idealTree +-- utils-merge@1.0.1
+63 silly idealTree +-- uuid@3.3.2
+63 silly idealTree +-- validate-npm-package-license@3.0.4
+63 silly idealTree +-- validate-npm-package-name@3.0.0
+63 silly idealTree +-- vary@1.1.2
+63 silly idealTree +-- verror@1.10.0
+63 silly idealTree +-- wcwidth@1.0.1
+63 silly idealTree +-- webidl-conversions@4.0.2
+63 silly idealTree +-- whatwg-url@7.0.0
+63 silly idealTree +-- which-module@2.0.0
+63 silly idealTree +-- which@1.3.1
+63 silly idealTree +-- wide-align@1.1.3
+63 silly idealTree +-- wordwrap@0.0.3
+63 silly idealTree +-- wrap-ansi@2.1.0
+63 silly idealTree | +-- ansi-regex@2.1.1
+63 silly idealTree | +-- is-fullwidth-code-point@1.0.0
+63 silly idealTree | +-- string-width@1.0.2
+63 silly idealTree | `-- strip-ansi@3.0.1
+63 silly idealTree +-- wrappy@1.0.2
+63 silly idealTree +-- write-file-atomic@2.3.0
+63 silly idealTree +-- write-json-file@2.3.0
+63 silly idealTree +-- write-pkg@3.2.0
+63 silly idealTree +-- xtend@4.0.1
+63 silly idealTree +-- y18n@4.0.0
+63 silly idealTree +-- yallist@3.0.3
+63 silly idealTree +-- yargs-parser@11.1.1
+63 silly idealTree `-- yargs@12.0.5
+64 silly generateActionsToTake Starting
+65 silly install generateActionsToTake
+66 silly generateActionsToTake Finishing
+67 silly diffTrees action count 1
+68 silly diffTrees add fire-admin@0.0.0
+69 silly decomposeActions action count 8
+70 silly decomposeActions fetch fire-admin@0.0.0
+71 silly decomposeActions extract fire-admin@0.0.0
+72 silly decomposeActions test fire-admin@0.0.0
+73 silly decomposeActions preinstall fire-admin@0.0.0
+74 silly decomposeActions build fire-admin@0.0.0
+75 silly decomposeActions install fire-admin@0.0.0
+76 silly decomposeActions postinstall fire-admin@0.0.0
+77 silly decomposeActions finalize fire-admin@0.0.0
+78 silly runTopLevelLifecycles Starting
+79 silly executeActions Starting
+80 silly install executeActions
+81 silly doSerial global-install 0
+82 silly doParallel fetch 1
+83 verbose correctMkdir D:\nodedata\npm-cache\_locks correctMkdir not in flight; initializing
+84 verbose lock using D:\nodedata\npm-cache\_locks\staging-274f41c0337f62fc.lock for D:\nodeProjects\chatbot-repo01\node_modules\.staging
+85 silly doParallel extract 1
+86 silly extract fire-admin@0.0.0
+87 verbose unbuild node_modules\.staging\fire-admin-0d9ef3d8
+88 silly gentlyRm D:\nodeProjects\chatbot-repo01\node_modules\.staging\fire-admin-0d9ef3d8 is being purged from base D:\nodeProjects\chatbot-repo01
+89 verbose gentlyRm don't care about contents; nuking D:\nodeProjects\chatbot-repo01\node_modules\.staging\fire-admin-0d9ef3d8
+90 verbose tar unpack D:\nodedata\npm-cache\fire-admin\0.0.0\package.tgz
+91 verbose tar unpacking to D:\nodeProjects\chatbot-repo01\node_modules\.staging\fire-admin-0d9ef3d8
+92 silly gentlyRm D:\nodeProjects\chatbot-repo01\node_modules\.staging\fire-admin-0d9ef3d8 is being purged
+93 verbose gentlyRm don't care about contents; nuking D:\nodeProjects\chatbot-repo01\node_modules\.staging\fire-admin-0d9ef3d8
+94 silly gunzTarPerm modes [ '777', '666' ]
+95 silly gunzTarPerm extractEntry package.json
+96 silly gunzTarPerm extractEntry .yo-rc.json
+97 silly gunzTarPerm extractEntry app.json
+98 silly gunzTarPerm extractEntry apps/api-server/package.json
+99 silly gunzTarPerm extractEntry apps/api-server/.npmignore
+100 silly gunzTarPerm extractEntry apps/api-server/README.md
+101 silly gunzTarPerm extractEntry apps/api-server/common/models/account.json
+102 silly gunzTarPerm extractEntry apps/api-server/common/models/account.ts
+103 silly gunzTarPerm extractEntry apps/api-server/common/models/todo.json
+104 silly gunzTarPerm extractEntry apps/api-server/common/models/todo.ts
+105 silly gunzTarPerm extractEntry apps/api-server/.yo-rc.json
+106 silly gunzTarPerm extractEntry apps/api-server/.eslintrc
+107 silly gunzTarPerm extractEntry apps/api-server/.eslintignore
+108 silly gunzTarPerm extractEntry apps/api-server/nodemon.json
+109 silly gunzTarPerm extractEntry apps/api-server/.editorconfig
+110 silly gunzTarPerm extractEntry apps/api-server/server/datasources.local.js
+111 silly gunzTarPerm extractEntry apps/api-server/server/server.js
+112 silly gunzTarPerm extractEntry apps/api-server/server/boot/authentication.ts
+113 silly gunzTarPerm extractEntry apps/api-server/server/boot/root.ts
+114 silly gunzTarPerm extractEntry apps/api-server/server/boot/testing.ts
+115 silly gunzTarPerm extractEntry apps/api-server/server/component-config.json
+116 silly gunzTarPerm extractEntry apps/api-server/server/config.json
+117 silly gunzTarPerm extractEntry apps/api-server/server/datasources.json
+118 silly gunzTarPerm extractEntry apps/api-server/server/middleware/publish-config.js
+119 silly gunzTarPerm extractEntry apps/api-server/server/middleware.development.json
+120 silly gunzTarPerm extractEntry apps/api-server/server/middleware.json
+121 silly gunzTarPerm extractEntry apps/api-server/server/model-config.json
+122 silly gunzTarPerm extractEntry apps/api-server/storage/.gitkeep
+123 silly gunzTarPerm extractEntry apps/api-server/tests/.keepme
+124 silly gunzTarPerm extractEntry apps/api-server/tests/account.spec.ts
+125 silly gunzTarPerm extractEntry apps/api-server/tests/note.spec.ts
+126 silly gunzTarPerm extractEntry apps/api-server/tests/todo.spec.ts
+127 silly gunzTarPerm extractEntry apps/api-server/tsconfig.json
+128 silly gunzTarPerm extractEntry apps/webapp/package.json
+129 silly gunzTarPerm extractEntry apps/webapp/.npmignore
+130 silly gunzTarPerm extractEntry apps/webapp/README.md
+131 silly gunzTarPerm extractEntry apps/webapp/karma.conf.js
+132 silly gunzTarPerm extractEntry apps/webapp/protractor.conf.js
+133 silly gunzTarPerm extractEntry apps/webapp/.angular-cli.json
+134 silly gunzTarPerm extractEntry apps/webapp/.editorconfig
+135 silly gunzTarPerm extractEntry apps/webapp/e2e/app.e2e-spec.ts
+136 silly gunzTarPerm extractEntry apps/webapp/e2e/app.po.ts
+137 silly gunzTarPerm extractEntry apps/webapp/e2e/tsconfig.e2e.json
+138 silly gunzTarPerm extractEntry apps/webapp/proxy.conf.json
+139 silly gunzTarPerm extractEntry apps/webapp/src/polyfills.ts
+140 silly gunzTarPerm extractEntry apps/webapp/src/app/_variables.scss
+141 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/admin.component.scss
+142 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/admin.component.ts
+143 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/admin.module.ts
+144 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/admin.routing.ts
+145 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/controls/control.component.html
+146 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/controls/control.component.ts
+147 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/controls/control.module.ts
+148 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/controls/control.service.ts
+149 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/controls/form/control-form.component.ts
+150 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/dashboard/dashboard.component.ts
+151 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/roles/form/role-form.component.ts
+152 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/roles/form/view-users.component.ts
+153 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/roles/role.component.html
+154 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/roles/role.component.ts
+155 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/roles/role.module.ts
+156 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/roles/role.service.ts
+157 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/users/form/user-form.component.ts
+158 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/users/user.component.html
+159 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/users/user.component.ts
+160 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/users/user.module.ts
+161 silly gunzTarPerm extractEntry apps/webapp/src/app/admin/users/user.service.ts
+162 silly gunzTarPerm extractEntry apps/webapp/src/app/app.component.ts
+163 silly gunzTarPerm extractEntry apps/webapp/src/app/app.module.ts
+164 silly gunzTarPerm extractEntry apps/webapp/src/app/app.routing.ts
+165 silly gunzTarPerm extractEntry apps/webapp/src/app/core.module.ts
+166 silly gunzTarPerm extractEntry apps/webapp/src/app/home/dashboard/dashboard.component.ts
+167 silly gunzTarPerm extractEntry apps/webapp/src/app/home/home.component.scss
+168 silly gunzTarPerm extractEntry apps/webapp/src/app/home/home.component.ts
+169 silly gunzTarPerm extractEntry apps/webapp/src/app/home/home.module.ts
+170 silly gunzTarPerm extractEntry apps/webapp/src/app/home/home.routing.ts
+171 silly gunzTarPerm extractEntry apps/webapp/src/app/home/todo/todo-form.component.ts
+172 silly gunzTarPerm extractEntry apps/webapp/src/app/home/todo/todo.component.html
+173 silly gunzTarPerm extractEntry apps/webapp/src/app/home/todo/todo.component.ts
+174 silly gunzTarPerm extractEntry apps/webapp/src/app/home/todo/todo.module.ts
+175 silly gunzTarPerm extractEntry apps/webapp/src/app/home/todo/todo.service.ts
+176 silly gunzTarPerm extractEntry apps/webapp/src/app/home/ui/notifications/notifications.component.ts
+177 silly gunzTarPerm extractEntry apps/webapp/src/app/home/ui/ui-demo.component.ts
+178 silly gunzTarPerm extractEntry apps/webapp/src/app/home/ui/ui-demo.module.ts
+179 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/index.ts
+180 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/lb.config.ts
+181 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/models/ACL.ts
+182 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/models/AccessToken.ts
+183 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/models/Account.ts
+184 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/models/BaseModels.ts
+185 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/models/FireLoop.ts
+186 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/models/FireLoopRef.ts
+187 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/models/Role.ts
+188 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/models/RoleMapping.ts
+189 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/models/Todo.ts
+190 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/models/index.ts
+191 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/core/auth.service.ts
+192 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/core/base.service.ts
+193 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/core/error.service.ts
+194 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/core/index.ts
+195 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/core/io.service.ts
+196 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/core/real.time.ts
+197 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/core/search.params.ts
+198 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/custom/ACL.ts
+199 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/custom/AccessToken.ts
+200 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/custom/Account.ts
+201 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/custom/Role.ts
+202 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/custom/RoleMapping.ts
+203 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/custom/SDKModels.ts
+204 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/custom/Todo.ts
+205 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/custom/index.ts
+206 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/custom/logger.service.ts
+207 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/services/index.ts
+208 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/sockets/socket.browser.ts
+209 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/sockets/socket.connections.ts
+210 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/sockets/socket.driver.ts
+211 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/storage/cookie.browser.ts
+212 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/storage/storage.browser.ts
+213 silly gunzTarPerm extractEntry apps/webapp/src/app/sdk/storage/storage.swaps.ts
+214 silly gunzTarPerm extractEntry apps/webapp/src/app/shared.module.ts
+215 silly gunzTarPerm extractEntry apps/webapp/src/environments/environment.prod.ts
+216 silly gunzTarPerm extractEntry apps/webapp/src/environments/environment.ts
+217 silly gunzTarPerm extractEntry apps/webapp/src/favicon.ico
+218 silly gunzTarPerm extractEntry apps/webapp/src/index.html
+219 silly gunzTarPerm extractEntry apps/webapp/src/main.ts
+220 silly gunzTarPerm extractEntry apps/webapp/src/assets/.gitkeep
+221 silly gunzTarPerm extractEntry apps/webapp/src/assets/img/avatar.png
+222 silly gunzTarPerm extractEntry apps/webapp/src/assets/img/brand.jpg
+223 silly gunzTarPerm extractEntry apps/webapp/src/assets/img/favicon.png
+224 silly gunzTarPerm extractEntry apps/webapp/src/assets/img/logo-wide.svg
+225 silly gunzTarPerm extractEntry apps/webapp/src/styles.scss
+226 silly gunzTarPerm extractEntry apps/webapp/src/test.ts
+227 silly gunzTarPerm extractEntry apps/webapp/src/tsconfig.app.json
+228 silly gunzTarPerm extractEntry apps/webapp/src/tsconfig.spec.json
+229 silly gunzTarPerm extractEntry apps/webapp/src/typings.d.ts
+230 silly gunzTarPerm extractEntry apps/webapp/tsconfig.json
+231 silly gunzTarPerm extractEntry apps/webapp/tslint.json
+232 silly gunzTarPerm extractEntry lerna-debug.log
+233 silly gunzTarPerm extractEntry lerna.json
+234 silly gunzTarPerm extractEntry modules/auth/package.json
+235 silly gunzTarPerm extractEntry modules/auth/auth.component.ts
+236 silly gunzTarPerm extractEntry modules/auth/auth.module.ts
+237 silly gunzTarPerm extractEntry modules/auth/login/login.component.ts
+238 silly gunzTarPerm extractEntry modules/auth/register/register.component.ts
+239 silly gunzTarPerm extractEntry modules/auth/status/status.component.ts
+240 silly gunzTarPerm extractEntry modules/auth/tsconfig.json
+241 silly gunzTarPerm extractEntry modules/ui/package.json
+242 silly gunzTarPerm extractEntry modules/ui/admin-ui.module.ts
+243 silly gunzTarPerm extractEntry modules/ui/admin-ui.ts
+244 silly gunzTarPerm extractEntry modules/ui/components/card/card.component.html
+245 silly gunzTarPerm extractEntry modules/ui/components/card/card.component.ts
+246 silly gunzTarPerm extractEntry modules/ui/components/form/admin-form.ts
+247 silly gunzTarPerm extractEntry modules/ui/components/form/form.component.html
+248 silly gunzTarPerm extractEntry modules/ui/components/form/form.component.ts
+249 silly gunzTarPerm extractEntry modules/ui/components/index.ts
+250 silly gunzTarPerm extractEntry modules/ui/layout/body/body.component.html
+251 silly gunzTarPerm extractEntry modules/ui/layout/body/body.component.scss
+252 silly gunzTarPerm extractEntry modules/ui/layout/body/body.component.ts
+253 silly gunzTarPerm extractEntry modules/ui/layout/footer/footer.component.html
+254 silly gunzTarPerm extractEntry modules/ui/layout/footer/footer.component.scss
+255 silly gunzTarPerm extractEntry modules/ui/layout/footer/footer.component.ts
+256 silly gunzTarPerm extractEntry modules/ui/layout/header/header.component.html
+257 silly gunzTarPerm extractEntry modules/ui/layout/header/header.component.scss
+258 silly gunzTarPerm extractEntry modules/ui/layout/header/header.component.ts
+259 silly gunzTarPerm extractEntry modules/ui/layout/layout.component.ts
+260 silly gunzTarPerm extractEntry modules/ui/layout/sidebar/sidebar.component.html
+261 silly gunzTarPerm extractEntry modules/ui/layout/sidebar/sidebar.component.scss
+262 silly gunzTarPerm extractEntry modules/ui/layout/sidebar/sidebar.component.ts
+263 silly gunzTarPerm extractEntry modules/ui/styles/_bootswatch.scss
+264 silly gunzTarPerm extractEntry modules/ui/styles/_custom.scss
+265 silly gunzTarPerm extractEntry modules/ui/styles/_mixins.scss
+266 silly gunzTarPerm extractEntry modules/ui/styles/_toasty.scss
+267 silly gunzTarPerm extractEntry modules/ui/styles/fire.scss
+268 silly gunzTarPerm extractEntry modules/ui/tsconfig.json
+269 silly gentlyRm D:\nodeProjects\chatbot-repo01\node_modules\.staging\fire-admin-0d9ef3d8\node_modules is being purged
+270 verbose gentlyRm don't care about contents; nuking D:\nodeProjects\chatbot-repo01\node_modules\.staging\fire-admin-0d9ef3d8\node_modules
+271 silly doParallel preinstall 1
+272 silly preinstall fire-admin@0.0.0 D:\nodeProjects\chatbot-repo01\node_modules\.staging\fire-admin-0d9ef3d8
+273 info lifecycle fire-admin@0.0.0~preinstall: fire-admin@0.0.0
+274 verbose lifecycle fire-admin@0.0.0~preinstall: unsafe-perm in lifecycle true
+275 verbose lifecycle fire-admin@0.0.0~preinstall: PATH: D:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;D:\nodeProjects\chatbot-repo01\node_modules\.staging\fire-admin-0d9ef3d8\node_modules\.bin;D:\nodeProjects\chatbot-repo01\node_modules\.bin;C:\Program Files\Microsoft MPI\Bin\;C:\Perl64\site\bin;C:\Perl64\bin;C:\Program Files\ImageMagick-6.9.1-Q16;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_25\bin;D:\AndroidSDK\tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Google\Google Apps Sync\;C:\Program Files\Google\Google Apps Migration\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Git\cmd;C:\Program Files\OpenVPN\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;D:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\TAP;C:\Users\Ronnie\AppData\Roaming\npm
+276 verbose lifecycle fire-admin@0.0.0~preinstall: CWD: D:\nodeProjects\chatbot-repo01\node_modules\.staging\fire-admin-0d9ef3d8
+277 silly lifecycle fire-admin@0.0.0~preinstall: Args: [ '/d /s /c',
+277 silly lifecycle   'npm install -g lerna rimraf concurrently && npm run clean' ]
+278 silly lifecycle fire-admin@0.0.0~preinstall: Returned: code: 1  signal: null
+279 info lifecycle fire-admin@0.0.0~preinstall: Failed to exec preinstall script
+280 verbose unlock done using D:\nodedata\npm-cache\_locks\staging-274f41c0337f62fc.lock for D:\nodeProjects\chatbot-repo01\node_modules\.staging
+281 silly rollbackFailedOptional Starting
+282 silly rollbackFailedOptional Finishing
+283 silly runTopLevelLifecycles Finishing
+284 silly install printInstalled
+285 warn chatbot-repo01@1.0.0 No description
+286 verbose If you need help, you may report this error at:
+286 verbose     <https://github.com/npm/npm/issues>
+287 verbose stack Error: fire-admin@0.0.0 preinstall: `npm install -g lerna rimraf concurrently && npm run clean`
+287 verbose stack Exit status 1
+287 verbose stack     at EventEmitter.<anonymous> (D:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+287 verbose stack     at emitTwo (events.js:106:13)
+287 verbose stack     at EventEmitter.emit (events.js:191:7)
+287 verbose stack     at ChildProcess.<anonymous> (D:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+287 verbose stack     at emitTwo (events.js:106:13)
+287 verbose stack     at ChildProcess.emit (events.js:191:7)
+287 verbose stack     at maybeClose (internal/child_process.js:920:16)
+287 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+288 verbose pkgid fire-admin@0.0.0
+289 verbose cwd D:\nodeProjects\chatbot-repo01
+290 error Windows_NT 6.3.9600
+291 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "fire-admin" "-S"
+292 error node v6.11.3
+293 error npm  v3.10.10
+294 error code ELIFECYCLE
+295 error fire-admin@0.0.0 preinstall: `npm install -g lerna rimraf concurrently && npm run clean`
+295 error Exit status 1
+296 error Failed at the fire-admin@0.0.0 preinstall script 'npm install -g lerna rimraf concurrently && npm run clean'.
+296 error Make sure you have the latest version of node.js and npm installed.
+296 error If you do, this is most likely a problem with the fire-admin package,
+296 error not with npm itself.
+296 error Tell the author that this fails on your system:
+296 error     npm install -g lerna rimraf concurrently && npm run clean
+296 error You can get information on how to open an issue for this project with:
+296 error     npm bugs fire-admin
+296 error Or if that isn't available, you can get their info via:
+296 error     npm owner ls fire-admin
+296 error There is likely additional logging output above.
+297 verbose exit [ 1, true ]
