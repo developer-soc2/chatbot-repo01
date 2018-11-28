@@ -1,8 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const functions = require('firebase-functions');
-//const {WebhookClient,Card, Suggestion, } = require('dialogflow-fulfillment');
-const {BrowseCarousel,BrowseCarouselItem,Image,WebhookClient,Card, Suggestion} = require('actions-on-google');
+const {WebhookClient,Card, Suggestion, } = require('dialogflow-fulfillment');
+const {BrowseCarousel,BrowseCarouselItem,Image,Card, Suggestion} = require('actions-on-google');
 
 const a11yText = 'Google Assistant Bubbles';
 const googleUrl = 'https://google.com';
