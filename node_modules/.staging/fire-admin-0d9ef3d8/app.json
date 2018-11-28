@@ -1,0 +1,25 @@
+{
+  "name": "fire-admin",
+  "description": "Admin module for the FireLoop.io platform",
+  "repository": "https://github.com/mean-expert-official/fire-admin.git",
+  "logo": "http://docs.fireloop.io/img/avatar.png",
+  "keywords": [
+    "angular",
+    "angular 2",
+    "angular 4",
+    "loopback",
+    "fireloop",
+    "realtime",
+    "mean",
+    "full stack",
+    "full-stack",
+    "admin",
+    "module",
+    "mongo",
+    "mongodb",
+    "node",
+    "express",
+    "static",
+    "lerna"
+  ],
+}

@@ -1,0 +1,28 @@
+@import '../variables';
+
+.admin-header {
+  z-index      : 1000;
+  top          : -15px;
+  width        : calc(100vw - 64px);
+  height       : 30px;
+  margin-top   : -15px;
+  margin-bottom: 10px;
+  margin-left  : -15px;
+  padding      : 2px 0 0 15px;
+  box-shadow   : 0 2px 5px -1px rgba(0, 0, 0, .5);
+  line-height  : 30px;
+  @include transition(all .3s ease);
+  @media (max-width: 575px) {
+    left : 0;
+    width: 100vw;
+  }
+
+  h5 {
+    color      : $brand-danger;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.3);
+  }
+
+  &.sidebar-open {
+    width: calc(100vw - 250px);
+  }
+}
